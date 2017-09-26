@@ -9,7 +9,7 @@
 
 import Foundation
 
-class JavaShopLogger {
+public class JavaShopLogger {
     public static func build() -> JavaShopLogger{
         return JavaShopLogger()
     }

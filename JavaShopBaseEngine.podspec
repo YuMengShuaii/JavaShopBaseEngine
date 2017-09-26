@@ -24,10 +24,10 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  # s.description  = <<-DESC
+  
 
-  s.homepage     = "https://github.com/YuMengShuaii/JavaShopBaseEngine/SourceFile"
+  s.homepage     = "https://github.com/YuMengShuaii/JavaShopBaseEngine/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "JavaShopBaseEngine", "JavaShopBaseEngine/**/*.{swift}"
+  s.source_files  = "JavaShopBaseEngine", "SourceFile/*.{swift}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-    s.resources = "JavaShopBaseEngine/Resources/*.png"
+  #  s.resources = "JavaShopBaseEngine/Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
