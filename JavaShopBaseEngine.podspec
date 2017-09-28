@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JavaShopBaseEngine"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "JavaShop Basic dynamic dependency Library."
 
   # This description is used to generate tags and improve search results.
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  #  s.resources = "JavaShopBaseEngine/Resources/*.png"
+  #  s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
