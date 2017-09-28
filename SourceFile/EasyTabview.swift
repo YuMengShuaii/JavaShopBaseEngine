@@ -35,8 +35,8 @@ public class EasyTabview: HMSegmentedControl {
         self.selectionIndicatorLocation = indicatorLocation!
         self.selectionIndicatorColor = indicatorColor
         self.selectionIndicatorHeight = indicatorHeight!
-        self.selectedTitleTextAttributes = [NSAttributedStringKey.foregroundColor:selectTextColor!,NSAttributedStringKey.font:UIFont.systemFont(ofSize: selectTextSize!)]
-        self.titleTextAttributes = [NSAttributedStringKey.foregroundColor:nomalTextColor!,NSAttributedStringKey.font:UIFont.systemFont(ofSize: nomalTextSize!)]
+        self.selectedTitleTextAttributes = [NSAttributedStringKey.foregroundColor:selectTextColor!,NSFontAttributeName:UIFont.systemFont(ofSize: selectTextSize!)]
+        self.titleTextAttributes = [NSAttributedStringKey.foregroundColor:nomalTextColor!,NSFontAttributeName:UIFont.systemFont(ofSize: nomalTextSize!)]
         self.selectionStyle = selectionStyle!
         self.backgroundColor = backgroundColor
         self.addTarget(self, action: #selector(itemClick(_:)), for: .valueChanged)

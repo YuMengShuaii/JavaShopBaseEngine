@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JavaShopBaseEngine"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "JavaShop Basic dynamic dependency Library."
 
   # This description is used to generate tags and improve search results.
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  #  s.resources = "Resources/*.png"
+    s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "Foundation", "UIKit"
+  s.frameworks = "Foundation", "UIKit","AudioToolbox","ObjectiveC",""
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -131,6 +131,30 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+    s.dependency "Action", "~> 3.2.0"
+    s.dependency "Alamofire","~>4.5.1"
+    s.dependency "Moya","~>9.0.0"
+    s.dependency "Moya/RxSwift","~>9.0.0"
+    s.dependency "Then","~>2.2.0"
+    s.dependency "SwiftDate","~>4.3.0"
+    s.dependency "SnapKit","~>3.2.0"
+    s.dependency "Kingfisher","~>3.13.1"
+    s.dependency "PermissionScope","~>1.1.1"
+    s.dependency "RxSwift","~>3.6.1"
+    s.dependency "RxCocoa","~>3.6.1"
+    s.dependency "RxDataSources","~>2.0.2"
+    s.dependency "ImageViewer","~>4.1.0"
+    s.dependency "HandyJSON","~>1.8.0"
+    s.dependency "NoticeBar","~>0.1.5"
+    s.dependency "RealmSwift","~>2.10.1"
+    s.dependency "EZSwiftExtensions","~>1.11.0"
+    s.dependency "Reusable","~>4.0.0"
+    s.dependency "RxOptional","~>3.2.0"
+    s.dependency "SwiftWebVC","~>0.4.1"
+    s.dependency "SideMenu","~>3.0.1"
+    s.dependency "SwiftyBeaver","~>1.4.1"
+    s.dependency "NSObject+Rx","~>3.0.0"
+    s.dependency "RAMAnimatedTabBarController","~>2.2.3"
+    s.dependency "HMSegmentedControl","~>1.5.2"
 
 end
