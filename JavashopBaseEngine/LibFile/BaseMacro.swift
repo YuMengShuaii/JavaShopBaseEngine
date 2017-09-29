@@ -42,8 +42,8 @@ public func AS_OBSERVABLE<T>(type:T)->Variable<T>{
 /// 全局日志工具
 public let Log = SwiftyBeaver.self
 
-public let HOLDER_IMAGE = "holder"
+public let HOLDER_IMAGE = "ImageResource.bundle/holder"
 
-public let ERROR_IMAGE  = "error"
+public let ERROR_IMAGE  = "ImageResource.bundle/error"
 
 public let IMAGE_CACHE_MAX : UInt = 1024*1024*300
