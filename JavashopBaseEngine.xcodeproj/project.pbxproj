@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67FF50341F7DDC18007C010E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50331F7DDC18007C010E /* AppDelegate.swift */; };
+		67FF50361F7DDC18007C010E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50351F7DDC18007C010E /* ViewController.swift */; };
+		67FF50391F7DDC18007C010E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FF50371F7DDC18007C010E /* Main.storyboard */; };
+		67FF503C1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67FF503A1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld */; };
+		67FF503E1F7DDC18007C010E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FF503D1F7DDC18007C010E /* Assets.xcassets */; };
+		67FF50411F7DDC18007C010E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FF503F1F7DDC18007C010E /* LaunchScreen.storyboard */; };
+		67FF504C1F7DDC18007C010E /* JavashopBaseEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF504B1F7DDC18007C010E /* JavashopBaseEngineTests.swift */; };
+		67FF50571F7DDC18007C010E /* JavashopBaseEngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50561F7DDC18007C010E /* JavashopBaseEngineUITests.swift */; };
+		EC24D07C075F066DADE94791 /* Pods_JavashopBaseEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54541566B5FEB012040E9025 /* Pods_JavashopBaseEngine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67FF50481F7DDC18007C010E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67FF50281F7DDC18007C010E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67FF502F1F7DDC18007C010E;
+			remoteInfo = JavashopBaseEngine;
+		};
+		67FF50531F7DDC18007C010E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67FF50281F7DDC18007C010E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67FF502F1F7DDC18007C010E;
+			remoteInfo = JavashopBaseEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1033A23E15514C6DF1FFE00F /* Pods-JavashopBaseEngine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavashopBaseEngine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JavashopBaseEngine/Pods-JavashopBaseEngine.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB17C92BFCC65196F610098 /* Pods-JavashopBaseEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavashopBaseEngine.release.xcconfig"; path = "Pods/Target Support Files/Pods-JavashopBaseEngine/Pods-JavashopBaseEngine.release.xcconfig"; sourceTree = "<group>"; };
+		54541566B5FEB012040E9025 /* Pods_JavashopBaseEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavashopBaseEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FF50301F7DDC18007C010E /* JavashopBaseEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavashopBaseEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FF50331F7DDC18007C010E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67FF50351F7DDC18007C010E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67FF50381F7DDC18007C010E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67FF503B1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JavashopBaseEngine.xcdatamodel; sourceTree = "<group>"; };
+		67FF503D1F7DDC18007C010E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67FF50401F7DDC18007C010E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67FF50421F7DDC18007C010E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FF50471F7DDC18007C010E /* JavashopBaseEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavashopBaseEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FF504B1F7DDC18007C010E /* JavashopBaseEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavashopBaseEngineTests.swift; sourceTree = "<group>"; };
+		67FF504D1F7DDC18007C010E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FF50521F7DDC18007C010E /* JavashopBaseEngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavashopBaseEngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FF50561F7DDC18007C010E /* JavashopBaseEngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavashopBaseEngineUITests.swift; sourceTree = "<group>"; };
+		67FF50581F7DDC18007C010E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67FF502D1F7DDC18007C010E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC24D07C075F066DADE94791 /* Pods_JavashopBaseEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FF50441F7DDC18007C010E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FF504F1F7DDC18007C010E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E12A0B6EEC293DBA775E2FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1033A23E15514C6DF1FFE00F /* Pods-JavashopBaseEngine.debug.xcconfig */,
+				2AB17C92BFCC65196F610098 /* Pods-JavashopBaseEngine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46E2EAF7A7BC9CB583911DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54541566B5FEB012040E9025 /* Pods_JavashopBaseEngine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67FF50271F7DDC18007C010E = {
+			isa = PBXGroup;
+			children = (
+				67FF50321F7DDC18007C010E /* JavashopBaseEngine */,
+				67FF504A1F7DDC18007C010E /* JavashopBaseEngineTests */,
+				67FF50551F7DDC18007C010E /* JavashopBaseEngineUITests */,
+				67FF50311F7DDC18007C010E /* Products */,
+				2E12A0B6EEC293DBA775E2FD /* Pods */,
+				46E2EAF7A7BC9CB583911DFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67FF50311F7DDC18007C010E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67FF50301F7DDC18007C010E /* JavashopBaseEngine.app */,
+				67FF50471F7DDC18007C010E /* JavashopBaseEngineTests.xctest */,
+				67FF50521F7DDC18007C010E /* JavashopBaseEngineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67FF50321F7DDC18007C010E /* JavashopBaseEngine */ = {
+			isa = PBXGroup;
+			children = (
+				67FF50331F7DDC18007C010E /* AppDelegate.swift */,
+				67FF50351F7DDC18007C010E /* ViewController.swift */,
+				67FF50371F7DDC18007C010E /* Main.storyboard */,
+				67FF503D1F7DDC18007C010E /* Assets.xcassets */,
+				67FF503F1F7DDC18007C010E /* LaunchScreen.storyboard */,
+				67FF50421F7DDC18007C010E /* Info.plist */,
+				67FF503A1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld */,
+			);
+			path = JavashopBaseEngine;
+			sourceTree = "<group>";
+		};
+		67FF504A1F7DDC18007C010E /* JavashopBaseEngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				67FF504B1F7DDC18007C010E /* JavashopBaseEngineTests.swift */,
+				67FF504D1F7DDC18007C010E /* Info.plist */,
+			);
+			path = JavashopBaseEngineTests;
+			sourceTree = "<group>";
+		};
+		67FF50551F7DDC18007C010E /* JavashopBaseEngineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67FF50561F7DDC18007C010E /* JavashopBaseEngineUITests.swift */,
+				67FF50581F7DDC18007C010E /* Info.plist */,
+			);
+			path = JavashopBaseEngineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67FF502F1F7DDC18007C010E /* JavashopBaseEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FF505B1F7DDC18007C010E /* Build configuration list for PBXNativeTarget "JavashopBaseEngine" */;
+			buildPhases = (
+				ABD668767574037F9ACFBF7F /* [CP] Check Pods Manifest.lock */,
+				67FF502C1F7DDC18007C010E /* Sources */,
+				67FF502D1F7DDC18007C010E /* Frameworks */,
+				67FF502E1F7DDC18007C010E /* Resources */,
+				B9ACE4AF62D1997961CD486A /* [CP] Embed Pods Frameworks */,
+				6664AB117D59C400DB71D824 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavashopBaseEngine;
+			productName = JavashopBaseEngine;
+			productReference = 67FF50301F7DDC18007C010E /* JavashopBaseEngine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67FF50461F7DDC18007C010E /* JavashopBaseEngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FF505E1F7DDC18007C010E /* Build configuration list for PBXNativeTarget "JavashopBaseEngineTests" */;
+			buildPhases = (
+				67FF50431F7DDC18007C010E /* Sources */,
+				67FF50441F7DDC18007C010E /* Frameworks */,
+				67FF50451F7DDC18007C010E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67FF50491F7DDC18007C010E /* PBXTargetDependency */,
+			);
+			name = JavashopBaseEngineTests;
+			productName = JavashopBaseEngineTests;
+			productReference = 67FF50471F7DDC18007C010E /* JavashopBaseEngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67FF50511F7DDC18007C010E /* JavashopBaseEngineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FF50611F7DDC18007C010E /* Build configuration list for PBXNativeTarget "JavashopBaseEngineUITests" */;
+			buildPhases = (
+				67FF504E1F7DDC18007C010E /* Sources */,
+				67FF504F1F7DDC18007C010E /* Frameworks */,
+				67FF50501F7DDC18007C010E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67FF50541F7DDC18007C010E /* PBXTargetDependency */,
+			);
+			name = JavashopBaseEngineUITests;
+			productName = JavashopBaseEngineUITests;
+			productReference = 67FF50521F7DDC18007C010E /* JavashopBaseEngineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67FF50281F7DDC18007C010E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = LDD;
+				TargetAttributes = {
+					67FF502F1F7DDC18007C010E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					67FF50461F7DDC18007C010E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67FF502F1F7DDC18007C010E;
+					};
+					67FF50511F7DDC18007C010E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67FF502F1F7DDC18007C010E;
+					};
+				};
+			};
+			buildConfigurationList = 67FF502B1F7DDC18007C010E /* Build configuration list for PBXProject "JavashopBaseEngine" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67FF50271F7DDC18007C010E;
+			productRefGroup = 67FF50311F7DDC18007C010E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67FF502F1F7DDC18007C010E /* JavashopBaseEngine */,
+				67FF50461F7DDC18007C010E /* JavashopBaseEngineTests */,
+				67FF50511F7DDC18007C010E /* JavashopBaseEngineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67FF502E1F7DDC18007C010E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FF50411F7DDC18007C010E /* LaunchScreen.storyboard in Resources */,
+				67FF503E1F7DDC18007C010E /* Assets.xcassets in Resources */,
+				67FF50391F7DDC18007C010E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FF50451F7DDC18007C010E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FF50501F7DDC18007C010E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6664AB117D59C400DB71D824 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JavashopBaseEngine/Pods-JavashopBaseEngine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD668767574037F9ACFBF7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9ACE4AF62D1997961CD486A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JavashopBaseEngine/Pods-JavashopBaseEngine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67FF502C1F7DDC18007C010E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FF50361F7DDC18007C010E /* ViewController.swift in Sources */,
+				67FF50341F7DDC18007C010E /* AppDelegate.swift in Sources */,
+				67FF503C1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FF50431F7DDC18007C010E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FF504C1F7DDC18007C010E /* JavashopBaseEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FF504E1F7DDC18007C010E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FF50571F7DDC18007C010E /* JavashopBaseEngineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67FF50491F7DDC18007C010E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67FF502F1F7DDC18007C010E /* JavashopBaseEngine */;
+			targetProxy = 67FF50481F7DDC18007C010E /* PBXContainerItemProxy */;
+		};
+		67FF50541F7DDC18007C010E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67FF502F1F7DDC18007C010E /* JavashopBaseEngine */;
+			targetProxy = 67FF50531F7DDC18007C010E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67FF50371F7DDC18007C010E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FF50381F7DDC18007C010E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67FF503F1F7DDC18007C010E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FF50401F7DDC18007C010E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67FF50591F7DDC18007C010E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67FF505A1F7DDC18007C010E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67FF505C1F7DDC18007C010E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1033A23E15514C6DF1FFE00F /* Pods-JavashopBaseEngine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H66H84PFH7;
+				INFOPLIST_FILE = JavashopBaseEngine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67FF505D1F7DDC18007C010E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB17C92BFCC65196F610098 /* Pods-JavashopBaseEngine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H66H84PFH7;
+				INFOPLIST_FILE = JavashopBaseEngine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67FF505F1F7DDC18007C010E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H66H84PFH7;
+				INFOPLIST_FILE = JavashopBaseEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavashopBaseEngine.app/JavashopBaseEngine";
+			};
+			name = Debug;
+		};
+		67FF50601F7DDC18007C010E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H66H84PFH7;
+				INFOPLIST_FILE = JavashopBaseEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavashopBaseEngine.app/JavashopBaseEngine";
+			};
+			name = Release;
+		};
+		67FF50621F7DDC18007C010E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H66H84PFH7;
+				INFOPLIST_FILE = JavashopBaseEngineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JavashopBaseEngine;
+			};
+			name = Debug;
+		};
+		67FF50631F7DDC18007C010E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H66H84PFH7;
+				INFOPLIST_FILE = JavashopBaseEngineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JavashopBaseEngine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67FF502B1F7DDC18007C010E /* Build configuration list for PBXProject "JavashopBaseEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FF50591F7DDC18007C010E /* Debug */,
+				67FF505A1F7DDC18007C010E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FF505B1F7DDC18007C010E /* Build configuration list for PBXNativeTarget "JavashopBaseEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FF505C1F7DDC18007C010E /* Debug */,
+				67FF505D1F7DDC18007C010E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FF505E1F7DDC18007C010E /* Build configuration list for PBXNativeTarget "JavashopBaseEngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FF505F1F7DDC18007C010E /* Debug */,
+				67FF50601F7DDC18007C010E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FF50611F7DDC18007C010E /* Build configuration list for PBXNativeTarget "JavashopBaseEngineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FF50621F7DDC18007C010E /* Debug */,
+				67FF50631F7DDC18007C010E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67FF503A1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67FF503B1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodel */,
+			);
+			currentVersion = 67FF503B1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodel */;
+			path = JavashopBaseEngine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67FF50281F7DDC18007C010E /* Project object */;
+}

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JavaShopBaseEngine"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "JavaShop Basic dynamic dependency Library."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "JavaShopBaseEngine", "SourceFile/*.{swift}"
+  s.source_files  = "JavaShopBaseEngine", "JavashopBaseEngine/LibFile/*.{swift}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-    s.resources = "Resources/*.png"
+    s.resources = "JavaShopBaseEngine", "JavashopBaseEngine/Resources/*.{png}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "Foundation", "UIKit","AudioToolbox","ObjectiveC",""
+  s.frameworks = "Foundation","UIKit","AudioToolbox"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
