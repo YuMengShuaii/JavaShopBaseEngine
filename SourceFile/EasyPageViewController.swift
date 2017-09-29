@@ -197,7 +197,7 @@ public class EasyPageViewController: UIViewController, UIScrollViewDelegate, NSC
      - parameter index:    change to index
      - parameter animated: animation bool. true to animate, false not animate
      */
-    @objc func showPageAtIndex(_ index:Int,animated:Bool) {
+    @objc public func showPageAtIndex(_ index:Int,animated:Bool) {
         if index < 0 || index >= self.pageCount {
             return
         }

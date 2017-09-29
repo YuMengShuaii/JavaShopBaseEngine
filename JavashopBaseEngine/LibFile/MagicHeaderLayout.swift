@@ -26,7 +26,7 @@ public class MagicHeaderLayout: UIView  {
     ///   - contentView: 可伸缩Content视图
     ///   - anthorView: 其他视图
     ///   - isFull: contentView是否到顶部
-    init(topBarHeight : CGFloat  ,contentHeight :CGFloat ,anthorHeight :CGFloat = 0, isFull: Bool = false) {
+    public init(topBarHeight : CGFloat  ,contentHeight :CGFloat ,anthorHeight :CGFloat = 0, isFull: Bool = false) {
         self.isFull = isFull
         self.topBar = UIView().then({ (view) in
             view.frame.size = CGSize.init(width: SCREEN_WIDTH, height: topBarHeight)

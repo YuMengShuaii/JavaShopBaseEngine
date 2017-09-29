@@ -42,7 +42,7 @@ public class EasyCollectionView<DataType>: UICollectionView {
     /// - Parameters:初始化方法
     ///   - frame:  frame信息
     ///   - layout: 初始布局
-    override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
+    override public init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
             rx.modelSelected(DataType.self)
             .bind(onNext: {[weak self] (data) in

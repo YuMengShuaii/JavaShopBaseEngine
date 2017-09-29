@@ -13,15 +13,15 @@ public class EasyTabView: HMSegmentedControl {
     
     private var delegate : EasyTabViewDelegate?
     
-    override init!(sectionTitles sectiontitles: [String]!) {
+    override public init!(sectionTitles sectiontitles: [String]!) {
         super.init(sectionTitles: sectiontitles)
     }
     
-    override init!(sectionImages: [UIImage]!, sectionSelectedImages: [UIImage]!, titlesForSections sectiontitles: [String]!) {
+    override public init!(sectionImages: [UIImage]!, sectionSelectedImages: [UIImage]!, titlesForSections sectiontitles: [String]!) {
         super.init(sectionImages: sectionImages, sectionSelectedImages: sectionSelectedImages, titlesForSections: sectiontitles)
     }
     
-    override init!(sectionImages: [UIImage]!, sectionSelectedImages: [UIImage]!) {
+    override public init!(sectionImages: [UIImage]!, sectionSelectedImages: [UIImage]!) {
         super.init(sectionImages: sectionImages, sectionSelectedImages: sectionSelectedImages)
     }
     
@@ -29,7 +29,7 @@ public class EasyTabView: HMSegmentedControl {
         super.init(coder: aDecoder)
     }
     
-    func config(indicatorLocation :HMSegmentedControlSelectionIndicatorLocation? = HMSegmentedControlSelectionIndicatorLocation.down , indicatorColor :UIColor? = UIColor.red ,indicatorHeight : CGFloat? = 1,selectTextColor :UIColor? = UIColor.red , selectTextSize : CGFloat? = 17,
+    public func config(indicatorLocation :HMSegmentedControlSelectionIndicatorLocation? = HMSegmentedControlSelectionIndicatorLocation.down , indicatorColor :UIColor? = UIColor.red ,indicatorHeight : CGFloat? = 1,selectTextColor :UIColor? = UIColor.red , selectTextSize : CGFloat? = 17,
                 nomalTextColor:UIColor? = UIColor.black,nomalTextSize :CGFloat? = 15,selectionStyle : HMSegmentedControlSelectionStyle? = HMSegmentedControlSelectionStyle.fullWidthStripe,backgroundColor :UIColor? = UIColor.white){
         self.translatesAutoresizingMaskIntoConstraints = false
         self.selectionIndicatorLocation = indicatorLocation!

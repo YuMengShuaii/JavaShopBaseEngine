@@ -13,9 +13,9 @@ import RxSwift
  */
 open class BaseViewModel<T : BasePageView> :NSObject{
     
-    var pView :T!
+    public var pView :T!
     
-    func attachView(view:T) {
+    public func attachView(view:T) {
         pView = view
     }
     

@@ -28,7 +28,7 @@ public class RefreshHelper {
     /// 初始化
     ///
     /// - Parameter cv: UIScrollView
-    init(sv:UIScrollView) {
+    public init(sv:UIScrollView) {
         self.sv = sv
     }
     

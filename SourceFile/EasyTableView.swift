@@ -38,7 +38,7 @@ public class EasyTableView<DataType>: UITableView {
     /// - Parameters:
     ///   - frame: layout参数
     ///   - style: 默认样式
-    override init(frame: CGRect, style: UITableViewStyle) {
+    override public init(frame: CGRect, style: UITableViewStyle) {
         super.init(frame: frame, style: style)
         rx.modelSelected(DataType.self)
           .bind { [weak self](data) in
