@@ -1,25 +1,61 @@
 //
 //  AppDelegate.swift
-//  JavashopBaseEngine
+//  Ios组件化Demo
 //
-//  Created by LDD on 2017/9/29.
+//  Created by LDD on 2017/9/5.
 //  Copyright © 2017年 LDD. All rights reserved.
 //
 
 import UIKit
 import CoreData
-
+import SwiftyBeaver
+import Kingfisher
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    
+        let console = ConsoleDestination()
+        // 使用自定义格式输出短时间、日志级别、信息
+        // console.format = "$DHH:mm:ss$d $L $M"
+        // 或者使用 console.format = "$J" 输出JSON格式
+        KingfisherManager.shared.cache.maxMemoryCost = 1024*1024*8
+        CommonUtils.autoClearImageCache(dis: disposeBag)
+        //添加配置到SwiftyBeaver
+        Log.addDestination(console)
         // Override point for customization after application launch.
+        let vc = ViewController()
+        let navigationController = UINavigationController(rootViewController: vc)
+        window?.rootViewController = navigationController
         return true
     }
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        if url.host == nil {
+            return true;
+        }
+        
+//        let urlString = url.absoluteString
+//        let queryArray = urlString.components(separatedBy: "/")
+        
+        
+        (self.window?.rootViewController as! UINavigationController).pushViewController(ListViewController(), animated: true)
+//
+//        let alertController = UIAlertController(title: "参数如下",
+//                                                message: "\()",
+//            preferredStyle: .alert)
+//        let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)
+//        alertController.addAction(cancelAction)
+//        self.window!.rootViewController!.present(alertController, animated: true,
+//                                                 completion: nil)
+        
+        return true
+    }
+    
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
@@ -41,11 +77,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
-        self.saveContext()
+        if #available(iOS 10.0, *) {
+            self.saveContext()
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
     // MARK: - Core Data stack
 
+    @available(iOS 10.0, *)
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
@@ -53,7 +94,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "JavashopBaseEngine")
+        let container = NSPersistentContainer(name: "Ios___Demo")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
@@ -75,6 +116,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data Saving support
 
+    @available(iOS 10.0, *)
     func saveContext () {
         let context = persistentContainer.viewContext
         if context.hasChanges {

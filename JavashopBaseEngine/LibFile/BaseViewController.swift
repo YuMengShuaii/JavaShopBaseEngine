@@ -8,9 +8,9 @@
 
 import UIKit
 
-public class BaseViewController :UIViewController{
+open class BaseViewController :UIViewController{
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         prepare()
         bindVVM()
@@ -25,12 +25,12 @@ public class BaseViewController :UIViewController{
     /**
      * 初始化操作
      */
-    public func prepare(){}
+    open func prepare(){}
     
     /**
      * 绑定数据
      */
-    public func bindVVM(){}
+    open func bindVVM(){}
     
     /**
      * 返回上一层页面

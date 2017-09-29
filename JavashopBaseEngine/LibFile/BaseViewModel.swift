@@ -11,7 +11,7 @@ import RxSwift
 /**
  *  ViewModel基础接口
  */
-public class BaseViewModel<T : BasePageView> :NSObject{
+open class BaseViewModel<T : BasePageView> :NSObject{
     
     var pView :T!
     
@@ -19,17 +19,13 @@ public class BaseViewModel<T : BasePageView> :NSObject{
         pView = view
     }
     
-    func bindData(){}
+    open func bindData(){}
     
-    func bindEvent(){}
+    open func bindEvent(){}
  
-    func bindNatification(){}
+    open func bindNatification(){}
     
     func back(){
         pView?.getViewController()?.navigationController?.popViewController(animated: true)
-    }
-    
-    deinit {
-        Log.info("ViewModel销毁")
     }
 }
