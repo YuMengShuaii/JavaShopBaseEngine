@@ -1,22 +1,17 @@
 //
 //  BaseView.swift
-//  Ios组件化Demo
+//  JavashopBaseEngine
 //
-//  Created by LDD on 2017/9/7.
+//  Created by LDD on 2017/9/29.
 //  Copyright © 2017年 LDD. All rights reserved.
 //
 
 import UIKit
-open class BasePageView :UIView{
 
+open class BaseView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.reSize()
         self.createUI()
-    }
-    
-    private func reSize(){
-       self.frame.size = CGSize.init(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
     }
     
     open func createUI(){}

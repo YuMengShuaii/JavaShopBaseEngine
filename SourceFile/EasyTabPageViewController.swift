@@ -7,14 +7,14 @@ import HMSegmentedControl
     @objc optional func pageViewDidSelectedIndex(_ index:Int)
 }
 
-class EasyTabPageViewController: EasyPageViewController {
+public class EasyTabPageViewController: EasyPageViewController {
     var segmentedControl:HMSegmentedControl?
     var pageTitles:Array<String>!
     var segmentHeight = 44.0
     
     //MARK: - Init
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
     
     init(pageTitles:Array<String>) {
@@ -28,7 +28,7 @@ class EasyTabPageViewController: EasyPageViewController {
     }
     
     //MARK: - Lift Cycles
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         assert((pageTitles.count == self.pageCount), "title count is not equal controllers count")
         
@@ -39,7 +39,7 @@ class EasyTabPageViewController: EasyPageViewController {
         self.resetScrollViewLayoutConstraints(self.scrollView)
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override public func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
     }
     

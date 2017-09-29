@@ -117,7 +117,7 @@ open class SJProgressHUD : NSObject {
           parent.backgroundColor = UIColor.clear
           let imageview = UIImageView()
           imageview.frame = CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width/15, height: UIScreen.main.bounds.width/15)
-          imageview.image = UIImage.init(named: "load4")
+          imageview.image = UIImage.init(named: "js_load")
           imageview.center = getCenter()
           let lable = SJProgressHUD.createLable()
           lable.frame = CGRect.init(x: 0, y: 0,width:UIScreen.main.bounds.width/25, height: UIScreen.main.bounds.width/25)

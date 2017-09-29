@@ -9,7 +9,7 @@
 import UIKit
 import HMSegmentedControl
 
-public class EasyTabview: HMSegmentedControl {
+public class EasyTabView: HMSegmentedControl {
     
     private var delegate : EasyTabViewDelegate?
     
@@ -43,7 +43,7 @@ public class EasyTabview: HMSegmentedControl {
     }
     
     @objc func itemClick(_ sender:AnyObject){
-        let index = (sender as! EasyTabview).selectedSegmentIndex
+        let index = (sender as! EasyTabView).selectedSegmentIndex
         if(delegate != nil){
             delegate?.tabItemClick(index: index)
         }
