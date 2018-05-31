@@ -22,16 +22,10 @@ public class EasyCollectionView<DataType>: UICollectionView {
     /// 数据集合
     private let dataArr = Variable([SectionModel<String, DataType>]())
     
-    ///创建Cell代码快类型
-    public typealias CellBlack = (CollectionViewSectionedDataSource<SectionModel<String,DataType>>, UICollectionView, IndexPath, DataType) -> (UICollectionViewCell)
-    
-    /// 点击事件代码块类型
-    public typealias ClickBlack = (DataType) ->()
-    
     ///点击代码块
-    private var click :ClickBlack!
+    private var click :JavaShopVoidMethod1<DataType>!
     
-    private var longClick :ClickBlack!
+    private var longClick :JavaShopVoidMethod1<DataType>!
     
     private var canBindData = true
     
@@ -54,14 +48,14 @@ public class EasyCollectionView<DataType>: UICollectionView {
     /// 设置Item点击事件
     ///
     /// - Parameter click: 点击回调代码块
-    public func setOnItemClickListener(click:@escaping ClickBlack){
+    public func setOnItemClickListener(click: JavaShopVoidMethod1<DataType>!){
         self.click = click
     }
     
     /// 设置Item长按事件
     ///
     /// - Parameter longClick: 长按事件回调代码块
-    public func setOnItemLongClickListener(longClick:@escaping ClickBlack){
+    public func setOnItemLongClickListener(longClick: JavaShopVoidMethod1<DataType>!){
         self.openItemLongClick()
         self.longClick = longClick
     }
@@ -96,7 +90,7 @@ public class EasyCollectionView<DataType>: UICollectionView {
     /// 开启自动加载
     ///
     /// - Parameter loadMore: 加载更多
-    public func autoLoadMore(loadMore : @escaping ()->()){
+    public func autoLoadMore(loadMore : @escaping JavaShopVoidMethod){
         rx.willDisplayCell.bind {[weak self] (data:(cell: UICollectionViewCell, at: IndexPath)) in
             if data.at.section == (self?.dataArr.value.count)! - 1 && data.at.row == ((self?.numberOfItems(inSection: data.at.section))!/3) {
                 loadMore()
@@ -107,7 +101,7 @@ public class EasyCollectionView<DataType>: UICollectionView {
     /// 创建Cell布局
     ///
     /// - Parameter cellBlack: 布局创建代码块
-    public func createCell(cellBlack: @escaping CellBlack){
+    public func createCell(cellBlack: @escaping JavaShopMethod4<CollectionViewSectionedDataSource<SectionModel<String,DataType>>, UICollectionView, IndexPath, DataType,UICollectionViewCell>){
         datasource.configureCell = cellBlack
             dataArr.asObservable()
                 .filter({ (data) -> Bool in

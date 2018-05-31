@@ -98,6 +98,7 @@ extension GankApi:TargetType{
     }
     
     var task: Task{
+        
         return .requestPlain
     }
     
@@ -106,4 +107,54 @@ extension GankApi:TargetType{
     }
 }
 
+enum RegionApi{
+    case get(parentId :Int)
+}
+
+extension RegionApi :TargetType{
+    var baseURL: URL{
+        return URL(string: "http://www.javamall.com.cn/b2b2c/api/")!
+    }
+    
+    var headers: [String : String]?{
+        return nil
+    }
+    
+    var method: Moya.Method{
+        return .get
+    }
+    
+    var path: String{
+        switch self {
+        case .get:
+            return "mobile/address/region-list.do"
+        }
+    }
+    
+    public var parameters: [String: Any]? {
+        switch self {
+        case .get(let parentId):
+            return ["parentid": parentId]
+        }
+    }
+    
+    public var parameterEncoding: ParameterEncoding {
+        return URLEncoding.default
+    }
+    
+    var sampleData: Data{
+        return "示例数据".data(using: String.Encoding.utf8)!
+    }
+    
+    var task: Task{
+        switch self {
+        case .get:
+            return .requestParameters(parameters: parameters!, encoding: parameterEncoding)
+        }
+    }
+    
+    var validate: Bool{
+        return false
+    }
+}
 

@@ -19,19 +19,11 @@ public class EasyTableView<DataType>: UITableView {
     
     /// RxDataSource
     private let datasource = RxTableViewSectionedReloadDataSource<SectionModel<String, DataType>>()
-
-    /// TableCell创建回调
-    public typealias CellBlackType = (TableViewSectionedDataSource<SectionModel<String, DataType>>, UITableView, IndexPath, DataType) -> UITableViewCell
-    
-    public var cellBlack :CellBlackType!
-    
-    /// 点击事件代码块类型
-    public typealias ClickBlack = (DataType) ->()
     
     ///点击代码块
-    public var click :ClickBlack!
+    public var click :JavaShopVoidMethod1<DataType>!
     
-    public var longClick :ClickBlack!
+    public var longClick :JavaShopVoidMethod1<DataType>!
     
     /// 初始化
     ///
@@ -51,7 +43,7 @@ public class EasyTableView<DataType>: UITableView {
     /// 创建Cell布局
     ///
     /// - Parameter cellBlack: 布局创建代码块
-    public func createCell(cellBlack: @escaping CellBlackType){
+    public func createCell(cellBlack: JavaShopMethod4<TableViewSectionedDataSource<SectionModel<String, DataType>>, UITableView, IndexPath, DataType,UITableViewCell>!){
         datasource.configureCell = cellBlack
         dataArr.asDriver()
             .filter({ (data) -> Bool in
@@ -63,14 +55,14 @@ public class EasyTableView<DataType>: UITableView {
     /// 设置点击事件
     ///
     /// - Parameter click: 点击回调代码块
-    public func setOnItemClickListener(click:@escaping ClickBlack){
+    public func setOnItemClickListener(click: @escaping JavaShopVoidMethod1<DataType>){
         self.click = click
     }
     
     /// 设置Item长按事件
     ///
     /// - Parameter longClick: 长按事件回调代码块
-    public func setOnItemLongClickListener(longClick:@escaping ClickBlack){
+    public func setOnItemLongClickListener(longClick: @escaping JavaShopVoidMethod1<DataType>){
         self.openItemLongClick()
         self.longClick = longClick
     }
@@ -104,7 +96,7 @@ public class EasyTableView<DataType>: UITableView {
     /// 是否开启自动加载
     ///
     /// - Parameter loadMore: 加载Black
-    public func autoLoadMore(loadMore : @escaping ()->()){
+    public func autoLoadMore(loadMore : @escaping JavaShopVoidMethod){
         rx.willDisplayCell.observeOn(MainScheduler.instance).bind {[weak self] (dispaly: (cell: UITableViewCell, indexPath: IndexPath)) in
             if dispaly.indexPath.section == (self?.dataArr.value.count)! - 1 && dispaly.indexPath.row == ((self?.numberOfRows(inSection: dispaly.indexPath.section))!/3) {
                 loadMore()

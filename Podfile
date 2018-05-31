@@ -24,6 +24,8 @@ target 'JavashopBaseEngine' do
     pod "RxOptional","~>3.2.0"
     pod "SwiftWebVC","~>0.4.1"
     pod "SideMenu","~>3.0.1"
+    pod 'Tangram'
+    pod "TangramKit","1.1.6"
     pod "SwiftyBeaver","~>1.4.1"
     pod "NSObject+Rx","~>3.0.0"
     pod "RAMAnimatedTabBarController","~>2.2.3"

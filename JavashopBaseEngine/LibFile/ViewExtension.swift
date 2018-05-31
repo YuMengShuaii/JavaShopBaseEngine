@@ -109,6 +109,14 @@ extension UILabel {
         self.text = text
     }
     
+    public func setTextColor(color : UIColor){
+        self.textColor = color
+    }
+    
+    public func setTextColor(colorHex : String){
+        self.textColor = UIColor.withHex(hexString: colorHex)
+    }
+    
     convenience public init(text :String , textColor : UIColor, textSize :CGFloat) {
         self.init()
         setText(text: text, textColor: textColor, textSize: textSize)

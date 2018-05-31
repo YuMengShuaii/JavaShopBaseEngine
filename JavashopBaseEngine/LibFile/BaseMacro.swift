@@ -24,7 +24,7 @@ public let STATUS_HEIGHT =  UIApplication.shared.statusBarFrame.height
 /// - Parameter percentage: 百分比 0-100
 /// - Returns: 所需要的宽度
 public func GET_SCREEN_WIDTH(_ percentage:CGFloat) -> CGFloat{
-    return SCREEN_WIDTH*(percentage/100)
+    return UIScreen.main.bounds.width*(percentage/100)
 }
 
 /// 根据百分比获取屏幕高度 例如： GET_SCREEN_HEIGHT（20）获取20%的屏幕高度
@@ -32,7 +32,7 @@ public func GET_SCREEN_WIDTH(_ percentage:CGFloat) -> CGFloat{
 /// - Parameter percentage: 百分比 0-100
 /// - Returns: 所需要的高度
 public func GET_SCREEN_HEIGHT(_ percentage:CGFloat) -> CGFloat{
-    return SCREEN_HEIGHT*(percentage/100)
+    return UIScreen.main.bounds.height*(percentage/100)
 }
 
 public func AS_OBSERVABLE<T>(type:T)->Variable<T>{

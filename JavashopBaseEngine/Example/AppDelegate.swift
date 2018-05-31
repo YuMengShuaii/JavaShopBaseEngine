@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    
         let console = ConsoleDestination()
         // 使用自定义格式输出短时间、日志级别、信息
         // console.format = "$DHH:mm:ss$d $L $M"

@@ -16,7 +16,6 @@ class TableViewPage: BasePageView {
     var bannerView :UIView!
     var menuTab :UIView!
     override func createUI() {
-        
         tabBarView = UIView().then({ (view) in
           view.frame.size = CGSize.init(width: SCREEN_WIDTH, height: 60)
           view.backgroundColor = UIColor.white.withAlphaComponent(0.5)
@@ -32,7 +31,7 @@ class TableViewPage: BasePageView {
           view.backgroundColor = UIColor.blue
         })
         
-        magicHeaderView = MagicHeaderLayout.init(topBarHeight: 60, contentHeight: 300, anthorHeight: 60, isFull: false).then({ (layout) in
+        magicHeaderView = MagicHeaderLayout.init(topBarHeight: 60, contentHeight: SCREEN_WIDTH, anthorHeight: 60, isFull: false).then({ (layout) in
             layout.backgroundColor = UIColor.white
             layout.TopBar().backgroundColor = UIColor.red.withAlphaComponent(0.2)
             layout.Content().backgroundColor = UIColor.black
@@ -45,13 +44,10 @@ class TableViewPage: BasePageView {
         
         var tableFrame = UIScreen.main.bounds
         tableFrame.origin.y = magicHeaderView.frame.size.height
-        tableFrame.size.height -= magicHeaderView.minHeight()
-      
+        tableFrame.size.height -= (magicHeaderView.minHeight() + STATUS_HEIGHT + 40)
         tableView = EasyTableView<AndroidRes>.init(frame:tableFrame, style: .plain).then({ (view) in
         view.register(cellType: TableViewCell.self)
-        view.backgroundColor = UIColor.white
-        view.separatorStyle = UITableViewCellSeparatorStyle.none
-        })
+        view.separatorStyle = UITableViewCellSeparatorStyle.none})
         addSubview(tableView)
         magicHeaderView.bindView(view: tableView)
     }

@@ -9,6 +9,7 @@ PODS:
   - HMSegmentedControl (1.5.4)
   - ImageViewer (4.1.0)
   - Kingfisher (3.13.1)
+  - LazyScroll (0.0.2)
   - Moya (9.0.0):
     - Moya/Core (= 9.0.0)
   - Moya/Core (9.0.0):
@@ -43,11 +44,17 @@ PODS:
     - RxCocoa
     - RxSwift
   - RxSwift (3.6.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - SideMenu (3.0.2)
   - SnapKit (3.2.0)
   - SwiftDate (4.3.0)
   - SwiftWebVC (0.4.1)
   - SwiftyBeaver (1.4.2)
+  - Tangram (1.0.6):
+    - LazyScroll (~> 0.0.2)
+    - SDWebImage (~> 3.7)
   - Then (2.2.0)
 
 DEPENDENCIES:
@@ -75,6 +82,7 @@ DEPENDENCIES:
   - SwiftDate (~> 4.3.0)
   - SwiftWebVC (~> 0.4.1)
   - SwiftyBeaver (~> 1.4.1)
+  - Tangram
   - Then (~> 2.2.0)
 
 SPEC CHECKSUMS:
@@ -86,6 +94,7 @@ SPEC CHECKSUMS:
   HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
   ImageViewer: 163e5832e0a09e31a3e3482cce6e5e9029356174
   Kingfisher: ed9707a409cc47fddafbcd12a43a9757e3600af5
+  LazyScroll: 614022689b8e3b93c7bbe268c1a47b76e4265941
   Moya: cf5e6ee93af526532f92614004b8ad2ea60fd845
   NoticeBar: 7b824879ef70398a6ba2e01338e2d8bedb2c9d4e
   NSObject+Rx: 9c60a6e602ca647c0b2b34403383c305b1c6edc5
@@ -99,13 +108,15 @@ SPEC CHECKSUMS:
   RxDataSources: 7f190474a93a206c082c2d74c4cc9c8f7bea4feb
   RxOptional: d2d6a68064bc16b4801332c40663967f481b0234
   RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SideMenu: 8fe957e0f5dcf1a1175c8ba5d47978d4eb2a89da
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftDate: 64e2312711c5c506f7b51794308ce91f19eb494a
   SwiftWebVC: 17ad75e1fac143d421e0498fb40d7e37532f26d1
   SwiftyBeaver: 91057725648ee4980308f1650af077d04b3654a0
+  Tangram: bfcd576752a7e593e6eaa530f044875f23652e4f
   Then: 823f9813e1d4d0a814a5ba15e9c9d33ec7aca631
 
-PODFILE CHECKSUM: 759540ce63e5ed5c240045dff1c3a691cde06330
+PODFILE CHECKSUM: 668d202b819abca77d8435d8764db517079f7c01
 
 COCOAPODS: 1.2.1

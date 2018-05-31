@@ -664,7 +664,7 @@ public class EasyPageViewController: UIViewController, UIScrollViewDelegate, NSC
                 }
             }
         }
-        print("====  DidScroll dragging:  \(scrollView.isDragging)  decelorating: \(scrollView.isDecelerating)  offset:\(scrollView.contentOffset)")
+        //print("====  DidScroll dragging:  \(scrollView.isDragging)  decelorating: \(scrollView.isDecelerating)  offset:\(scrollView.contentOffset)")
     }
     
     // called on finger up as we are moving

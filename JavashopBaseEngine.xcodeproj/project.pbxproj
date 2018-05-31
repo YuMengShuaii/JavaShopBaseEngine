@@ -7,7 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		673A110C1FC2B5140014AA92 /* TangramSimpleTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 673A11071FC2B5140014AA92 /* TangramSimpleTextElement.m */; };
+		673A110D1FC2B5140014AA92 /* TangramSingleImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 673A11091FC2B5140014AA92 /* TangramSingleImageElement.m */; };
+		673A110E1FC2B5140014AA92 /* MockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673A110B1FC2B5140014AA92 /* MockViewController.m */; };
+		673A11101FC2B7020014AA92 /* TangramMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 673A110F1FC2B7020014AA92 /* TangramMock.json */; };
 		677797771F7E2BE90059EC02 /* ImageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 677797761F7E2BE90059EC02 /* ImageResource.bundle */; };
+		67B20C5D1F885F5F002ADB9E /* BlockMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B20C5C1F885F5F002ADB9E /* BlockMethods.swift */; };
+		67B20C5F1F886A65002ADB9E /* RegionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B20C5E1F886A65002ADB9E /* RegionSelector.swift */; };
+		67B4114C20034A1000147958 /* iPhoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B4114B20034A1000147958 /* iPhoneX.png */; };
+		67B4114F20034B6700147958 /* iPhoneX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B4114D20034B6600147958 /* iPhoneX@2x.png */; };
+		67B4115020034B6700147958 /* iPhoneX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B4114E20034B6600147958 /* iPhoneX@3x.png */; };
+		67B4115A2003602700147958 /* iPhoneSE@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411512003602600147958 /* iPhoneSE@3x.png */; };
+		67B4115B2003602700147958 /* iPhone8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411522003602600147958 /* iPhone8@2x.png */; };
+		67B4115C2003602700147958 /* iPhone8P@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411532003602600147958 /* iPhone8P@3x.png */; };
+		67B4115D2003602700147958 /* iPhone8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411542003602600147958 /* iPhone8@3x.png */; };
+		67B4115E2003602700147958 /* iPhone8P.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411552003602600147958 /* iPhone8P.png */; };
+		67B4115F2003602700147958 /* iPhone8.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411562003602600147958 /* iPhone8.png */; };
+		67B411602003602700147958 /* iPhone8P@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411572003602600147958 /* iPhone8P@2x.png */; };
+		67B411612003602700147958 /* iPhoneSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411582003602700147958 /* iPhoneSE.png */; };
+		67B411622003602700147958 /* iPhoneSE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411592003602700147958 /* iPhoneSE@2x.png */; };
+		67C5B9901F7E4E2500EE41D1 /* MagicDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C5B98F1F7E4E2500EE41D1 /* MagicDialog.swift */; };
+		67D103941F8DEA5E00196CDD /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D103931F8DEA5E00196CDD /* RegionModel.swift */; };
 		67FC79871F7DFE53006ED628 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC79861F7DFE53006ED628 /* BaseView.swift */; };
 		67FF50391F7DDC18007C010E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FF50371F7DDC18007C010E /* Main.storyboard */; };
 		67FF503C1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67FF503A1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld */; };
@@ -88,7 +108,31 @@
 		1033A23E15514C6DF1FFE00F /* Pods-JavashopBaseEngine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavashopBaseEngine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JavashopBaseEngine/Pods-JavashopBaseEngine.debug.xcconfig"; sourceTree = "<group>"; };
 		2AB17C92BFCC65196F610098 /* Pods-JavashopBaseEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavashopBaseEngine.release.xcconfig"; path = "Pods/Target Support Files/Pods-JavashopBaseEngine/Pods-JavashopBaseEngine.release.xcconfig"; sourceTree = "<group>"; };
 		54541566B5FEB012040E9025 /* Pods_JavashopBaseEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavashopBaseEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		673A10E81FBD727E0014AA92 /* OpenBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenBridge.h; sourceTree = "<group>"; };
+		673A11061FC2B5140014AA92 /* TangramSimpleTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangramSimpleTextElement.h; sourceTree = "<group>"; };
+		673A11071FC2B5140014AA92 /* TangramSimpleTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TangramSimpleTextElement.m; sourceTree = "<group>"; };
+		673A11081FC2B5140014AA92 /* TangramSingleImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangramSingleImageElement.h; sourceTree = "<group>"; };
+		673A11091FC2B5140014AA92 /* TangramSingleImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TangramSingleImageElement.m; sourceTree = "<group>"; };
+		673A110A1FC2B5140014AA92 /* MockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockViewController.h; sourceTree = "<group>"; };
+		673A110B1FC2B5140014AA92 /* MockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockViewController.m; sourceTree = "<group>"; };
+		673A110F1FC2B7020014AA92 /* TangramMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TangramMock.json; sourceTree = "<group>"; };
 		677797761F7E2BE90059EC02 /* ImageResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResource.bundle; sourceTree = "<group>"; };
+		67B20C5C1F885F5F002ADB9E /* BlockMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMethods.swift; sourceTree = "<group>"; };
+		67B20C5E1F886A65002ADB9E /* RegionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionSelector.swift; sourceTree = "<group>"; };
+		67B4114B20034A1000147958 /* iPhoneX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneX.png; sourceTree = "<group>"; };
+		67B4114D20034B6600147958 /* iPhoneX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneX@2x.png"; sourceTree = "<group>"; };
+		67B4114E20034B6600147958 /* iPhoneX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneX@3x.png"; sourceTree = "<group>"; };
+		67B411512003602600147958 /* iPhoneSE@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneSE@3x.png"; sourceTree = "<group>"; };
+		67B411522003602600147958 /* iPhone8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone8@2x.png"; sourceTree = "<group>"; };
+		67B411532003602600147958 /* iPhone8P@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone8P@3x.png"; sourceTree = "<group>"; };
+		67B411542003602600147958 /* iPhone8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone8@3x.png"; sourceTree = "<group>"; };
+		67B411552003602600147958 /* iPhone8P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone8P.png; sourceTree = "<group>"; };
+		67B411562003602600147958 /* iPhone8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone8.png; sourceTree = "<group>"; };
+		67B411572003602600147958 /* iPhone8P@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone8P@2x.png"; sourceTree = "<group>"; };
+		67B411582003602700147958 /* iPhoneSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneSE.png; sourceTree = "<group>"; };
+		67B411592003602700147958 /* iPhoneSE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneSE@2x.png"; sourceTree = "<group>"; };
+		67C5B98F1F7E4E2500EE41D1 /* MagicDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicDialog.swift; sourceTree = "<group>"; };
+		67D103931F8DEA5E00196CDD /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
 		67FC79861F7DFE53006ED628 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		67FF50301F7DDC18007C010E /* JavashopBaseEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavashopBaseEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FF50381F7DDC18007C010E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -196,9 +240,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		673A11041FC2B4AC0014AA92 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				673A11051FC2B5140014AA92 /* Element */,
+				673A110A1FC2B5140014AA92 /* MockViewController.h */,
+				673A110B1FC2B5140014AA92 /* MockViewController.m */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		673A11051FC2B5140014AA92 /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				673A11061FC2B5140014AA92 /* TangramSimpleTextElement.h */,
+				673A11071FC2B5140014AA92 /* TangramSimpleTextElement.m */,
+				673A11081FC2B5140014AA92 /* TangramSingleImageElement.h */,
+				673A11091FC2B5140014AA92 /* TangramSingleImageElement.m */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
 		67FC797D1F7DF8AD006ED628 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				67B411562003602600147958 /* iPhone8.png */,
+				67B411522003602600147958 /* iPhone8@2x.png */,
+				67B411542003602600147958 /* iPhone8@3x.png */,
+				67B411552003602600147958 /* iPhone8P.png */,
+				67B411572003602600147958 /* iPhone8P@2x.png */,
+				67B411532003602600147958 /* iPhone8P@3x.png */,
+				67B411582003602700147958 /* iPhoneSE.png */,
+				67B411592003602700147958 /* iPhoneSE@2x.png */,
+				67B411512003602600147958 /* iPhoneSE@3x.png */,
+				67B4114D20034B6600147958 /* iPhoneX@2x.png */,
+				67B4114E20034B6600147958 /* iPhoneX@3x.png */,
+				67B4114B20034A1000147958 /* iPhoneX.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -228,6 +305,7 @@
 		67FF50321F7DDC18007C010E /* JavashopBaseEngine */ = {
 			isa = PBXGroup;
 			children = (
+				673A10E81FBD727E0014AA92 /* OpenBridge.h */,
 				67FF50A81F7DEFA4007C010E /* Example */,
 				67FF50671F7DE71F007C010E /* LibFile */,
 				67FF50641F7DE71F007C010E /* Resources */,
@@ -261,6 +339,7 @@
 		67FF50641F7DE71F007C010E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				673A110F1FC2B7020014AA92 /* TangramMock.json */,
 				677797761F7E2BE90059EC02 /* ImageResource.bundle */,
 			);
 			path = Resources;
@@ -301,6 +380,9 @@
 				67FF50851F7DE71F007C010E /* ViewExtension.swift */,
 				67FF50861F7DE71F007C010E /* ViewPagerHelper.swift */,
 				67FC79861F7DFE53006ED628 /* BaseView.swift */,
+				67C5B98F1F7E4E2500EE41D1 /* MagicDialog.swift */,
+				67B20C5C1F885F5F002ADB9E /* BlockMethods.swift */,
+				67B20C5E1F886A65002ADB9E /* RegionSelector.swift */,
 			);
 			path = LibFile;
 			sourceTree = "<group>";
@@ -308,6 +390,7 @@
 		67FF50A81F7DEFA4007C010E /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				673A11041FC2B4AC0014AA92 /* Dynamic */,
 				67FC797D1F7DF8AD006ED628 /* Resource */,
 				67FF50A91F7DEFA4007C010E /* AndroidModle.swift */,
 				67FF50AA1F7DEFA4007C010E /* AppDelegate.swift */,
@@ -327,6 +410,7 @@
 				67FF50B81F7DEFA4007C010E /* TableViewModel.swift */,
 				67FF50B91F7DEFA4007C010E /* TableViewPage.swift */,
 				67FF50BA1F7DEFA4007C010E /* ViewController.swift */,
+				67D103931F8DEA5E00196CDD /* RegionModel.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -441,10 +525,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B4115B2003602700147958 /* iPhone8@2x.png in Resources */,
+				67B4115C2003602700147958 /* iPhone8P@3x.png in Resources */,
+				67B411622003602700147958 /* iPhoneSE@2x.png in Resources */,
+				67B4115E2003602700147958 /* iPhone8P.png in Resources */,
+				67B4115A2003602700147958 /* iPhoneSE@3x.png in Resources */,
 				67FF50411F7DDC18007C010E /* LaunchScreen.storyboard in Resources */,
+				67B411602003602700147958 /* iPhone8P@2x.png in Resources */,
+				67B4114F20034B6700147958 /* iPhoneX@2x.png in Resources */,
 				67FF503E1F7DDC18007C010E /* Assets.xcassets in Resources */,
 				677797771F7E2BE90059EC02 /* ImageResource.bundle in Resources */,
+				67B4115D2003602700147958 /* iPhone8@3x.png in Resources */,
+				67B411612003602700147958 /* iPhoneSE.png in Resources */,
+				67B4115F2003602700147958 /* iPhone8.png in Resources */,
+				67B4114C20034A1000147958 /* iPhoneX.png in Resources */,
+				673A11101FC2B7020014AA92 /* TangramMock.json in Resources */,
 				67FF50391F7DDC18007C010E /* Main.storyboard in Resources */,
+				67B4115020034B6700147958 /* iPhoneX@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,18 +622,22 @@
 				67FF50CA1F7DEFA4007C010E /* TableViewModel.swift in Sources */,
 				67FF50C31F7DEFA4007C010E /* ListViewPage.swift in Sources */,
 				67FF50BB1F7DEFA4007C010E /* AndroidModle.swift in Sources */,
+				67B20C5F1F886A65002ADB9E /* RegionSelector.swift in Sources */,
 				67FF509E1F7DE71F007C010E /* RxCollectionViewInsertSectionDataSource.swift in Sources */,
 				67FF509D1F7DE71F007C010E /* RefreshViewAnimator.swift in Sources */,
 				67FF50BE1F7DEFA4007C010E /* FirstPageController.swift in Sources */,
 				67FF50C71F7DEFA4007C010E /* PagerControllerViewController.swift in Sources */,
 				67FF509F1F7DE71F007C010E /* SJProgressHUD.swift in Sources */,
+				673A110E1FC2B5140014AA92 /* MockViewController.m in Sources */,
 				67FF50A51F7DE71F007C010E /* ViewControllerExtension_Child.swift in Sources */,
 				67FF50A71F7DE71F007C010E /* ViewPagerHelper.swift in Sources */,
+				673A110C1FC2B5140014AA92 /* TangramSimpleTextElement.m in Sources */,
 				67FF50A61F7DE71F007C010E /* ViewExtension.swift in Sources */,
 				67FF508B1F7DE71F007C010E /* BasePageView.swift in Sources */,
 				67FF50C11F7DEFA4007C010E /* ListViewController.swift in Sources */,
 				67FF50A01F7DE71F007C010E /* State.swift in Sources */,
 				67FF50981F7DE71F007C010E /* NotificationUtils.swift in Sources */,
+				67B20C5D1F885F5F002ADB9E /* BlockMethods.swift in Sources */,
 				67FF50901F7DE71F007C010E /* DefaultViewAnimator.swift in Sources */,
 				67FF508F1F7DE71F007C010E /* DefaultRefreshView.swift in Sources */,
 				67FF50CB1F7DEFA4007C010E /* TableViewPage.swift in Sources */,
@@ -550,12 +651,15 @@
 				67FF50931F7DE71F007C010E /* EasyTableView.swift in Sources */,
 				67FF50991F7DE71F007C010E /* NSArray_Remove.swift in Sources */,
 				67FF50C01F7DEFA4007C010E /* ListCell.swift in Sources */,
+				67C5B9901F7E4E2500EE41D1 /* MagicDialog.swift in Sources */,
 				67FF508D1F7DE71F007C010E /* BaseViewModel.swift in Sources */,
 				67FF50C81F7DEFA4007C010E /* TableControllerViewController.swift in Sources */,
 				67FF50921F7DE71F007C010E /* EasyPageViewController.swift in Sources */,
+				67D103941F8DEA5E00196CDD /* RegionModel.swift in Sources */,
 				67FF50C61F7DEFA4007C010E /* PageControllerViewController.swift in Sources */,
 				67FF50BF1F7DEFA4007C010E /* FirstPageViewModel.swift in Sources */,
 				67FF50911F7DE71F007C010E /* EasyCollectionView.swift in Sources */,
+				673A110D1FC2B5140014AA92 /* TangramSingleImageElement.m in Sources */,
 				67FF509C1F7DE71F007C010E /* RefreshHelper.swift in Sources */,
 				67FF50C21F7DEFA4007C010E /* ListViewModel.swift in Sources */,
 				67FF508C1F7DE71F007C010E /* BaseViewController.swift in Sources */,
@@ -734,12 +838,14 @@
 			baseConfigurationReference = 1033A23E15514C6DF1FFE00F /* Pods-JavashopBaseEngine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H66H84PFH7;
 				INFOPLIST_FILE = JavashopBaseEngine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = JavashopBaseEngine/OpenBridge.h;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -750,12 +856,14 @@
 			baseConfigurationReference = 2AB17C92BFCC65196F610098 /* Pods-JavashopBaseEngine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H66H84PFH7;
 				INFOPLIST_FILE = JavashopBaseEngine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = JavashopBaseEngine/OpenBridge.h;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

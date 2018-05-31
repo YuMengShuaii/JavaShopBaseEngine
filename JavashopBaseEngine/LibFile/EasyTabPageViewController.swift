@@ -19,7 +19,6 @@ public class EasyTabPageViewController: EasyPageViewController {
     
     init(pageTitles:Array<String>) {
         super.init(nibName: nil, bundle: nil)
-        
         self.pageTitles = pageTitles
         if self.pageTitles.count > 1 {
             self.segmentedControl = HMSegmentedControl(sectionTitles: self.pageTitles)

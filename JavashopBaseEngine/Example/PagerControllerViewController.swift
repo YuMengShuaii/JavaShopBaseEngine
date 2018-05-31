@@ -13,6 +13,7 @@ class PagerControllerViewController: UIViewController,EasyTabViewDelegate,ViewPa
     var tabber :EasyTabView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.isHidden = true
         self.view.backgroundColor = UIColor.white
         pager = ViewPagerHelper.build(pageControllers: [TableControllerViewController(),TableControllerViewController(),TableControllerViewController()])
         pager.setDelagate(delegate: self)
@@ -27,7 +28,8 @@ class PagerControllerViewController: UIViewController,EasyTabViewDelegate,ViewPa
             make.height.equalTo(40)
         }
         pager.view.snp.makeConstraints {[weak self] (view) in
-            view.bottom.left.right.equalTo((self?.view)!)
+            view.left.right.equalTo((self?.view)!)
+            view.bottom.equalTo((self?.view)!).offset(STATUS_HEIGHT)
             view.top.equalTo(tabber.snp.bottom)
         }
     }

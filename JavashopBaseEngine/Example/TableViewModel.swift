@@ -18,6 +18,7 @@ class TableViewModel : BaseViewModel <TableViewPage> , UITableViewDelegate {
     private let gankApi = RxMoyaProvider<GankApi>()
     var count = 1
     private var refreshHelper:RefreshHelper!
+    
     public func getGirl()-> Single<AndroidModle>{
         return  gankApi.request(.Girl("\(count)"))
             .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .userInteractive))
@@ -109,7 +110,7 @@ class TableViewModel : BaseViewModel <TableViewPage> , UITableViewDelegate {
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        Log.error(scrollView.contentOffset.y)
+        //Log.error(scrollView.contentOffset.y)
         pView?.magicHeaderView.bindScroll(offset:scrollView.contentOffset)
     }
     

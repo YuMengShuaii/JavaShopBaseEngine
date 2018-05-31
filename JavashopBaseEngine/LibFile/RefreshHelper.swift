@@ -38,7 +38,7 @@ public class RefreshHelper {
     /// - Parameters:
     ///   - topAction: 下拉刷新回调代码块
     ///   - bottomAction: 上拉刷新回调大妈快
-    public func openRefresh(topAction : @escaping ()->() , bottomAction : @escaping ()->()) {
+    public func openRefresh(topAction : @escaping JavaShopVoidMethod , bottomAction : @escaping JavaShopVoidMethod) {
         sv.addPullToRefresh(top, action:topAction)
         sv.addPullToRefresh(bottom,action: bottomAction)
     }
@@ -49,7 +49,7 @@ public class RefreshHelper {
     /// - Parameters:
     ///   - topRefresh: 下拉刷新视图
     ///   - topAction:  下拉刷新回调代码块
-    public func openTopRefresh(topRefresh : PullToRefresh?=nil ,topAction : @escaping ()->()){
+    public func openTopRefresh(topRefresh : PullToRefresh?=nil ,topAction : @escaping JavaShopVoidMethod){
         if topRefresh==nil {
             sv.addPullToRefresh(top, action:topAction)
         }else{
@@ -63,7 +63,7 @@ public class RefreshHelper {
     /// - Parameters:
     ///   - bottomRefresh: 上拉刷新视图
     ///   - bottomAction:  上拉刷新回调代码块
-    public func openBottomRefresh(bottomRefresh : PullToRefresh?=nil ,bottomAction : @escaping ()->()){
+    public func openBottomRefresh(bottomRefresh : PullToRefresh?=nil ,bottomAction : @escaping JavaShopVoidMethod){
         if bottomRefresh==nil {
             sv.addPullToRefresh(bottom, action:bottomAction)
         }else{

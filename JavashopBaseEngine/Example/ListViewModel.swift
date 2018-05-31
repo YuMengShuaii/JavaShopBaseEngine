@@ -79,7 +79,6 @@ class ListViewModel :BaseViewModel<ListViewPage> ,UICollectionViewDelegate{
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        Log.error(scrollView.contentOffset.y)
         pView?.magicHeaderView.bindScroll(offset:scrollView.contentOffset)
     }
     

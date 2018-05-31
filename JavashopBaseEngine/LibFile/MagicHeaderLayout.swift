@@ -179,10 +179,9 @@ public class MagicHeaderLayout: UIView  {
 }
 
 class MagicContentView : UIView{
-   
-    typealias contentListener = () -> ()
-    private var   close : contentListener?
-    private var   open : contentListener?
+
+    private var   close : JavaShopVoidMethod?
+    private var   open : JavaShopVoidMethod?
     private var beginPoint :CGPoint!
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -210,11 +209,11 @@ class MagicContentView : UIView{
     }
 }
     
-    func setOpenListener(open : @escaping contentListener){
+    func setOpenListener(open : @escaping JavaShopVoidMethod){
         self.open = open
     }
     
-    func setCloseListener(close : @escaping contentListener){
+    func setCloseListener(close : @escaping JavaShopVoidMethod){
         self.close = close
     }
 }

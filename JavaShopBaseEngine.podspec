@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JavaShopBaseEngine"
-  s.version      = "0.1.0"
+  s.version      = "0.1.2"
   s.summary      = "JavaShop Basic dynamic dependency Library."
 
   # This description is used to generate tags and improve search results.
@@ -103,8 +103,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
-    s.resources = "Resources/*.{png}"
+   s.resource  = "Resources/ImageResource.bundle"
+  # s.resources = "Resources/*.{png}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -154,6 +154,7 @@ Pod::Spec.new do |s|
     s.dependency "SideMenu","~>3.0.1"
     s.dependency "SwiftyBeaver","~>1.4.1"
     s.dependency "NSObject+Rx","~>3.0.0"
+    s.dependency "TangramKit","1.1.6"
     s.dependency "RAMAnimatedTabBarController","~>2.2.3"
     s.dependency "HMSegmentedControl","~>1.5.2"
 
