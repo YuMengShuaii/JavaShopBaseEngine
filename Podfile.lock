@@ -55,6 +55,7 @@ PODS:
   - Tangram (1.0.6):
     - LazyScroll (~> 0.0.2)
     - SDWebImage (~> 3.7)
+  - TangramKit (1.1.6)
   - Then (2.2.0)
 
 DEPENDENCIES:
@@ -83,6 +84,7 @@ DEPENDENCIES:
   - SwiftWebVC (~> 0.4.1)
   - SwiftyBeaver (~> 1.4.1)
   - Tangram
+  - TangramKit (= 1.1.6)
   - Then (~> 2.2.0)
 
 SPEC CHECKSUMS:
@@ -115,8 +117,9 @@ SPEC CHECKSUMS:
   SwiftWebVC: 17ad75e1fac143d421e0498fb40d7e37532f26d1
   SwiftyBeaver: 91057725648ee4980308f1650af077d04b3654a0
   Tangram: bfcd576752a7e593e6eaa530f044875f23652e4f
+  TangramKit: 0119cdca13cda5fc0bc9e36b47b3292dba9423cf
   Then: 823f9813e1d4d0a814a5ba15e9c9d33ec7aca631
 
-PODFILE CHECKSUM: 668d202b819abca77d8435d8764db517079f7c01
+PODFILE CHECKSUM: 5e6b6493b93bce629d88329e39fde0cc31180616
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0.beta.2
