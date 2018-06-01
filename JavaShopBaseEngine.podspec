@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JavaShopBaseEngine"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "JavaShop Basic dynamic dependency Library."
 
   # This description is used to generate tags and improve search results.
@@ -150,7 +150,6 @@ Pod::Spec.new do |s|
     s.dependency "EZSwiftExtensions","~>1.11.0"
     s.dependency "Reusable","~>4.0.0"
     s.dependency "RxOptional","~>3.2.0"
-    s.dependency "SwiftWebVC","~>0.4.1"
     s.dependency "SideMenu","~>3.0.1"
     s.dependency "SwiftyBeaver","~>1.4.1"
     s.dependency "NSObject+Rx","~>3.0.0"
