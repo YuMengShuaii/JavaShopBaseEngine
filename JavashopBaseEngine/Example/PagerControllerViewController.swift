@@ -15,7 +15,7 @@ class PagerControllerViewController: UIViewController,EasyTabViewDelegate,ViewPa
         super.viewDidLoad()
         navigationController?.navigationBar.isHidden = true
         self.view.backgroundColor = UIColor.white
-        pager = ViewPagerHelper.build(pageControllers: [TableControllerViewController(),TableControllerViewController(),TableControllerViewController()])
+        pager = ViewPagerHelper.build(pageControllers: [ViewController(),ViewController(),ViewController()])
         pager.setDelagate(delegate: self)
         self.view.addSubview(pager.view)
         tabber = EasyTabView.init(sectionTitles:["商品","详情","评论"])

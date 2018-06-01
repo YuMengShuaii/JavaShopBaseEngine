@@ -2,39 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c9563f0-5e4c-4f68-90d0-37483998e665" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Assets.xcassets/LaunchImage.launchimage/Contents.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Assets.xcassets/LaunchImage.launchimage/iPhone 8@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Assets.xcassets/LaunchImage.launchimage/iPhone SE.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Assets.xcassets/LaunchImage.launchimage/iPhoneSE@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Assets.xcassets/LaunchImage.launchimage/iPhoneX.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Assets.xcassets/LaunchImage.launchimage/welcome_iphone8p@3x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/RegionModel.swift" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BlockMethods.swift" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/MagicDialog.swift" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/RegionSelector.swift" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JavashopBaseEngine/OpenBridge.h" />
-      <change beforePath="$PROJECT_DIR$/JavaShopBaseEngine.podspec" afterPath="$PROJECT_DIR$/JavaShopBaseEngine.podspec" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/JavashopBaseEngine.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/JavashopBaseEngine.xcodeproj/project.pbxproj" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/AppDelegate.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/AppDelegate.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/ListViewModel.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/ListViewModel.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/NetWorkPlugin.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/NetWorkPlugin.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/PagerControllerViewController.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/PagerControllerViewController.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/TableViewModel.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/TableViewModel.swift" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/Dynamic/Element/TangramSimpleTextElement.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/Dynamic/Element/TangramSimpleTextElement.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/Dynamic/Element/TangramSingleImageElement.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/Dynamic/Element/TangramSingleImageElement.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/Dynamic/MockViewController.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/Dynamic/MockViewController.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/FirstPage.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/FirstPage.swift" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/ListViewPage.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/ListViewPage.swift" />
       <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/TableViewPage.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/TableViewPage.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Example/ViewController.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Example/ViewController.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Info.plist" afterPath="$PROJECT_DIR$/JavashopBaseEngine/Info.plist" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseMacro.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseMacro.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/EasyCollectionView.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/EasyCollectionView.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/EasyPageViewController.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/EasyPageViewController.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/EasyTabPageViewController.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/EasyTabPageViewController.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/EasyTableView.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/EasyTableView.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/MagicHeaderLayout.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/MagicHeaderLayout.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/RefreshHelper.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/RefreshHelper.swift" />
-      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/ViewExtension.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/ViewExtension.swift" />
-      <change beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BasePageView.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseParentView.swift" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseView.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewController.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewController.swift" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewModel.swift" afterPath="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewModel.swift" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/OpenBridge.h" afterPath="$PROJECT_DIR$/JavashopBaseEngine/OpenBridge.h" />
+      <change beforePath="$PROJECT_DIR$/JavashopBaseEngine/Resources/TangramMock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/AutoRefeshViewHelper.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/BaseMacro.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/BasePageView.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/BaseView.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/BaseViewController.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/BaseViewModel.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/CommonUtils.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/DefaultRefreshView.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/DefaultViewAnimator.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/EasyCollectionView.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/EasyPageViewController.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/EasyTabPageViewController.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/EasyTableView.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/EasyTabview.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/MagicHeaderLayout.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/NSArray_Remove.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/NSLayoutConstraintExtension_Remove.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/NetExtension.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/NotificationUtils.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/PullToRefresh.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/RefreshHelper.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/RefreshViewAnimator.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/RxCollectionViewInsertSectionDataSource.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/SJProgressHUD.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/State.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/UIColorExtension.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/UIScrollView+PullToRefresh.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/UIViewExtension_Animation.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/UIViewExtension_RemoveConstraints.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/ViewControllerExtension_Child.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/ViewExtension.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SourceFile/ViewPagerHelper.swift" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,9 +59,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_E1683BB6-3A89-4D95-9D2F-23AA4C5E5E4D" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="FirstPage.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/FirstPage.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstPageController.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/FirstPageController.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -64,6 +101,14 @@
         <option value="$PROJECT_DIR$/JavashopBaseEngine/Example/ListViewController.swift" />
         <option value="$PROJECT_DIR$/JavashopBaseEngine/Example/AppDelegate.swift" />
         <option value="$PROJECT_DIR$/JavashopBaseEngine/LibFile/EasyPageViewController.swift" />
+        <option value="$PROJECT_DIR$/JavashopBaseEngine/OpenBridge.h" />
+        <option value="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseContract.swift" />
+        <option value="$PROJECT_DIR$/SourceFile/BasePageView.swift" />
+        <option value="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseParentView.swift" />
+        <option value="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewAgreement.swift" />
+        <option value="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewController.swift" />
+        <option value="$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewModel.swift" />
+        <option value="$PROJECT_DIR$/JavashopBaseEngine/Example/FirstPage.swift" />
       </list>
     </option>
   </component>
@@ -115,7 +160,13 @@
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="JavashopBaseEngine" type="1d218c8b:XcodeProjectNode" />
               <item name="JavashopBaseEngine" type="fcab9f18:XcodeViewNode" />
-              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="LibFile" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="JavashopBaseEngine" type="1d218c8b:XcodeProjectNode" />
+              <item name="JavashopBaseEngine" type="fcab9f18:XcodeViewNode" />
+              <item name="Resources" type="fcab9f18:XcodeViewNode" />
             </path>
           </expand>
           <select />
@@ -125,6 +176,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="JavashopBaseEngine" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,27 +213,30 @@
       <updated>1514432458879</updated>
       <workItem from="1514432461576" duration="1027000" />
       <workItem from="1515388709370" duration="1844000" />
+      <workItem from="1527839615193" duration="3602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2871000" />
+    <option name="totallyTimeSpent" value="6473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18470705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24907847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -217,7 +272,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BasePageView.swift">
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseParentView.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -255,14 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewModel.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/ListViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -271,27 +318,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BasePageView.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/ViewExtension.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="294" column="16" lean-forward="false" selection-start-line="294" selection-start-column="16" selection-end-line="294" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/FirstPage.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -307,6 +337,152 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="666" column="10" lean-forward="false" selection-start-line="666" selection-start-column="10" selection-end-line="666" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/NetWorkPlugin.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="121" column="4" lean-forward="true" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+          <folding>
+            <element signature="e#129#146#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SourceFile/BaseView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/Dynamic/MockViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/OpenBridge.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/MagicHeaderLayout.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="188" column="5" lean-forward="false" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/RxSwift/RxSwift/Schedulers/MainScheduler.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/TableViewModel.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseContract.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SourceFile/BasePageView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/ListViewPage.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseParentView.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewAgreement.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewModel.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/FirstPage.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/LibFile/BaseViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavashopBaseEngine/Example/FirstPageController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>

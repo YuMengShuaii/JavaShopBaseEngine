@@ -41,7 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let queryArray = urlString.components(separatedBy: "/")
         
         
-        (self.window?.rootViewController as! UINavigationController).pushViewController(ListViewController(), animated: true)
 //
 //        let alertController = UIAlertController(title: "参数如下",
 //                                                message: "\()",

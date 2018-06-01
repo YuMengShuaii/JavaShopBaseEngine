@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		673A110C1FC2B5140014AA92 /* TangramSimpleTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 673A11071FC2B5140014AA92 /* TangramSimpleTextElement.m */; };
-		673A110D1FC2B5140014AA92 /* TangramSingleImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 673A11091FC2B5140014AA92 /* TangramSingleImageElement.m */; };
-		673A110E1FC2B5140014AA92 /* MockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673A110B1FC2B5140014AA92 /* MockViewController.m */; };
-		673A11101FC2B7020014AA92 /* TangramMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 673A110F1FC2B7020014AA92 /* TangramMock.json */; };
 		677797771F7E2BE90059EC02 /* ImageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 677797761F7E2BE90059EC02 /* ImageResource.bundle */; };
 		67B20C5D1F885F5F002ADB9E /* BlockMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B20C5C1F885F5F002ADB9E /* BlockMethods.swift */; };
 		67B20C5F1F886A65002ADB9E /* RegionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B20C5E1F886A65002ADB9E /* RegionSelector.swift */; };
@@ -28,7 +24,6 @@
 		67B411622003602700147958 /* iPhoneSE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B411592003602700147958 /* iPhoneSE@2x.png */; };
 		67C5B9901F7E4E2500EE41D1 /* MagicDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C5B98F1F7E4E2500EE41D1 /* MagicDialog.swift */; };
 		67D103941F8DEA5E00196CDD /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D103931F8DEA5E00196CDD /* RegionModel.swift */; };
-		67FC79871F7DFE53006ED628 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC79861F7DFE53006ED628 /* BaseView.swift */; };
 		67FF50391F7DDC18007C010E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FF50371F7DDC18007C010E /* Main.storyboard */; };
 		67FF503C1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67FF503A1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld */; };
 		67FF503E1F7DDC18007C010E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FF503D1F7DDC18007C010E /* Assets.xcassets */; };
@@ -37,9 +32,7 @@
 		67FF50571F7DDC18007C010E /* JavashopBaseEngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50561F7DDC18007C010E /* JavashopBaseEngineUITests.swift */; };
 		67FF50891F7DE71F007C010E /* AutoRefeshViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50681F7DE71F007C010E /* AutoRefeshViewHelper.swift */; };
 		67FF508A1F7DE71F007C010E /* BaseMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50691F7DE71F007C010E /* BaseMacro.swift */; };
-		67FF508B1F7DE71F007C010E /* BasePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF506A1F7DE71F007C010E /* BasePageView.swift */; };
-		67FF508C1F7DE71F007C010E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF506B1F7DE71F007C010E /* BaseViewController.swift */; };
-		67FF508D1F7DE71F007C010E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF506C1F7DE71F007C010E /* BaseViewModel.swift */; };
+		67FF508B1F7DE71F007C010E /* BaseParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF506A1F7DE71F007C010E /* BaseParentView.swift */; };
 		67FF508E1F7DE71F007C010E /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF506D1F7DE71F007C010E /* CommonUtils.swift */; };
 		67FF508F1F7DE71F007C010E /* DefaultRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF506E1F7DE71F007C010E /* DefaultRefreshView.swift */; };
 		67FF50901F7DE71F007C010E /* DefaultViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF506F1F7DE71F007C010E /* DefaultViewAnimator.swift */; };
@@ -68,21 +61,11 @@
 		67FF50A71F7DE71F007C010E /* ViewPagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50861F7DE71F007C010E /* ViewPagerHelper.swift */; };
 		67FF50BB1F7DEFA4007C010E /* AndroidModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50A91F7DEFA4007C010E /* AndroidModle.swift */; };
 		67FF50BC1F7DEFA4007C010E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50AA1F7DEFA4007C010E /* AppDelegate.swift */; };
-		67FF50BD1F7DEFA4007C010E /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50AB1F7DEFA4007C010E /* FirstPage.swift */; };
-		67FF50BE1F7DEFA4007C010E /* FirstPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50AC1F7DEFA4007C010E /* FirstPageController.swift */; };
-		67FF50BF1F7DEFA4007C010E /* FirstPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50AD1F7DEFA4007C010E /* FirstPageViewModel.swift */; };
 		67FF50C01F7DEFA4007C010E /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50AE1F7DEFA4007C010E /* ListCell.swift */; };
-		67FF50C11F7DEFA4007C010E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50AF1F7DEFA4007C010E /* ListViewController.swift */; };
-		67FF50C21F7DEFA4007C010E /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B01F7DEFA4007C010E /* ListViewModel.swift */; };
-		67FF50C31F7DEFA4007C010E /* ListViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B11F7DEFA4007C010E /* ListViewPage.swift */; };
 		67FF50C41F7DEFA4007C010E /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B21F7DEFA4007C010E /* LoginModel.swift */; };
 		67FF50C51F7DEFA4007C010E /* NetWorkPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B31F7DEFA4007C010E /* NetWorkPlugin.swift */; };
-		67FF50C61F7DEFA4007C010E /* PageControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B41F7DEFA4007C010E /* PageControllerViewController.swift */; };
 		67FF50C71F7DEFA4007C010E /* PagerControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B51F7DEFA4007C010E /* PagerControllerViewController.swift */; };
-		67FF50C81F7DEFA4007C010E /* TableControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B61F7DEFA4007C010E /* TableControllerViewController.swift */; };
 		67FF50C91F7DEFA4007C010E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B71F7DEFA4007C010E /* TableViewCell.swift */; };
-		67FF50CA1F7DEFA4007C010E /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B81F7DEFA4007C010E /* TableViewModel.swift */; };
-		67FF50CB1F7DEFA4007C010E /* TableViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50B91F7DEFA4007C010E /* TableViewPage.swift */; };
 		67FF50CC1F7DEFA4007C010E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50BA1F7DEFA4007C010E /* ViewController.swift */; };
 		EC24D07C075F066DADE94791 /* Pods_JavashopBaseEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54541566B5FEB012040E9025 /* Pods_JavashopBaseEngine.framework */; };
 /* End PBXBuildFile section */
@@ -109,13 +92,6 @@
 		2AB17C92BFCC65196F610098 /* Pods-JavashopBaseEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavashopBaseEngine.release.xcconfig"; path = "Pods/Target Support Files/Pods-JavashopBaseEngine/Pods-JavashopBaseEngine.release.xcconfig"; sourceTree = "<group>"; };
 		54541566B5FEB012040E9025 /* Pods_JavashopBaseEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavashopBaseEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		673A10E81FBD727E0014AA92 /* OpenBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenBridge.h; sourceTree = "<group>"; };
-		673A11061FC2B5140014AA92 /* TangramSimpleTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangramSimpleTextElement.h; sourceTree = "<group>"; };
-		673A11071FC2B5140014AA92 /* TangramSimpleTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TangramSimpleTextElement.m; sourceTree = "<group>"; };
-		673A11081FC2B5140014AA92 /* TangramSingleImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangramSingleImageElement.h; sourceTree = "<group>"; };
-		673A11091FC2B5140014AA92 /* TangramSingleImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TangramSingleImageElement.m; sourceTree = "<group>"; };
-		673A110A1FC2B5140014AA92 /* MockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockViewController.h; sourceTree = "<group>"; };
-		673A110B1FC2B5140014AA92 /* MockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockViewController.m; sourceTree = "<group>"; };
-		673A110F1FC2B7020014AA92 /* TangramMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TangramMock.json; sourceTree = "<group>"; };
 		677797761F7E2BE90059EC02 /* ImageResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResource.bundle; sourceTree = "<group>"; };
 		67B20C5C1F885F5F002ADB9E /* BlockMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMethods.swift; sourceTree = "<group>"; };
 		67B20C5E1F886A65002ADB9E /* RegionSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionSelector.swift; sourceTree = "<group>"; };
@@ -133,7 +109,6 @@
 		67B411592003602700147958 /* iPhoneSE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneSE@2x.png"; sourceTree = "<group>"; };
 		67C5B98F1F7E4E2500EE41D1 /* MagicDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicDialog.swift; sourceTree = "<group>"; };
 		67D103931F8DEA5E00196CDD /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
-		67FC79861F7DFE53006ED628 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		67FF50301F7DDC18007C010E /* JavashopBaseEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavashopBaseEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FF50381F7DDC18007C010E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67FF503B1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JavashopBaseEngine.xcdatamodel; sourceTree = "<group>"; };
@@ -148,9 +123,7 @@
 		67FF50581F7DDC18007C010E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67FF50681F7DE71F007C010E /* AutoRefeshViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRefeshViewHelper.swift; sourceTree = "<group>"; };
 		67FF50691F7DE71F007C010E /* BaseMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMacro.swift; sourceTree = "<group>"; };
-		67FF506A1F7DE71F007C010E /* BasePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePageView.swift; sourceTree = "<group>"; };
-		67FF506B1F7DE71F007C010E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		67FF506C1F7DE71F007C010E /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		67FF506A1F7DE71F007C010E /* BaseParentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseParentView.swift; sourceTree = "<group>"; };
 		67FF506D1F7DE71F007C010E /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
 		67FF506E1F7DE71F007C010E /* DefaultRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultRefreshView.swift; sourceTree = "<group>"; };
 		67FF506F1F7DE71F007C010E /* DefaultViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewAnimator.swift; sourceTree = "<group>"; };
@@ -179,21 +152,11 @@
 		67FF50861F7DE71F007C010E /* ViewPagerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerHelper.swift; sourceTree = "<group>"; };
 		67FF50A91F7DEFA4007C010E /* AndroidModle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndroidModle.swift; sourceTree = "<group>"; };
 		67FF50AA1F7DEFA4007C010E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67FF50AB1F7DEFA4007C010E /* FirstPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
-		67FF50AC1F7DEFA4007C010E /* FirstPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageController.swift; sourceTree = "<group>"; };
-		67FF50AD1F7DEFA4007C010E /* FirstPageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageViewModel.swift; sourceTree = "<group>"; };
 		67FF50AE1F7DEFA4007C010E /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
-		67FF50AF1F7DEFA4007C010E /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		67FF50B01F7DEFA4007C010E /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
-		67FF50B11F7DEFA4007C010E /* ListViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewPage.swift; sourceTree = "<group>"; };
 		67FF50B21F7DEFA4007C010E /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		67FF50B31F7DEFA4007C010E /* NetWorkPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkPlugin.swift; sourceTree = "<group>"; };
-		67FF50B41F7DEFA4007C010E /* PageControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControllerViewController.swift; sourceTree = "<group>"; };
 		67FF50B51F7DEFA4007C010E /* PagerControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerControllerViewController.swift; sourceTree = "<group>"; };
-		67FF50B61F7DEFA4007C010E /* TableControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableControllerViewController.swift; sourceTree = "<group>"; };
 		67FF50B71F7DEFA4007C010E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		67FF50B81F7DEFA4007C010E /* TableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
-		67FF50B91F7DEFA4007C010E /* TableViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewPage.swift; sourceTree = "<group>"; };
 		67FF50BA1F7DEFA4007C010E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -238,27 +201,6 @@
 				54541566B5FEB012040E9025 /* Pods_JavashopBaseEngine.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		673A11041FC2B4AC0014AA92 /* Dynamic */ = {
-			isa = PBXGroup;
-			children = (
-				673A11051FC2B5140014AA92 /* Element */,
-				673A110A1FC2B5140014AA92 /* MockViewController.h */,
-				673A110B1FC2B5140014AA92 /* MockViewController.m */,
-			);
-			path = Dynamic;
-			sourceTree = "<group>";
-		};
-		673A11051FC2B5140014AA92 /* Element */ = {
-			isa = PBXGroup;
-			children = (
-				673A11061FC2B5140014AA92 /* TangramSimpleTextElement.h */,
-				673A11071FC2B5140014AA92 /* TangramSimpleTextElement.m */,
-				673A11081FC2B5140014AA92 /* TangramSingleImageElement.h */,
-				673A11091FC2B5140014AA92 /* TangramSingleImageElement.m */,
-			);
-			path = Element;
 			sourceTree = "<group>";
 		};
 		67FC797D1F7DF8AD006ED628 /* Resource */ = {
@@ -339,7 +281,6 @@
 		67FF50641F7DE71F007C010E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				673A110F1FC2B7020014AA92 /* TangramMock.json */,
 				677797761F7E2BE90059EC02 /* ImageResource.bundle */,
 			);
 			path = Resources;
@@ -350,9 +291,7 @@
 			children = (
 				67FF50681F7DE71F007C010E /* AutoRefeshViewHelper.swift */,
 				67FF50691F7DE71F007C010E /* BaseMacro.swift */,
-				67FF506A1F7DE71F007C010E /* BasePageView.swift */,
-				67FF506B1F7DE71F007C010E /* BaseViewController.swift */,
-				67FF506C1F7DE71F007C010E /* BaseViewModel.swift */,
+				67FF506A1F7DE71F007C010E /* BaseParentView.swift */,
 				67FF506D1F7DE71F007C010E /* CommonUtils.swift */,
 				67FF506E1F7DE71F007C010E /* DefaultRefreshView.swift */,
 				67FF506F1F7DE71F007C010E /* DefaultViewAnimator.swift */,
@@ -379,7 +318,6 @@
 				67FF50841F7DE71F007C010E /* ViewControllerExtension_Child.swift */,
 				67FF50851F7DE71F007C010E /* ViewExtension.swift */,
 				67FF50861F7DE71F007C010E /* ViewPagerHelper.swift */,
-				67FC79861F7DFE53006ED628 /* BaseView.swift */,
 				67C5B98F1F7E4E2500EE41D1 /* MagicDialog.swift */,
 				67B20C5C1F885F5F002ADB9E /* BlockMethods.swift */,
 				67B20C5E1F886A65002ADB9E /* RegionSelector.swift */,
@@ -390,25 +328,14 @@
 		67FF50A81F7DEFA4007C010E /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				673A11041FC2B4AC0014AA92 /* Dynamic */,
 				67FC797D1F7DF8AD006ED628 /* Resource */,
 				67FF50A91F7DEFA4007C010E /* AndroidModle.swift */,
 				67FF50AA1F7DEFA4007C010E /* AppDelegate.swift */,
-				67FF50AB1F7DEFA4007C010E /* FirstPage.swift */,
-				67FF50AC1F7DEFA4007C010E /* FirstPageController.swift */,
-				67FF50AD1F7DEFA4007C010E /* FirstPageViewModel.swift */,
 				67FF50AE1F7DEFA4007C010E /* ListCell.swift */,
-				67FF50AF1F7DEFA4007C010E /* ListViewController.swift */,
-				67FF50B01F7DEFA4007C010E /* ListViewModel.swift */,
-				67FF50B11F7DEFA4007C010E /* ListViewPage.swift */,
 				67FF50B21F7DEFA4007C010E /* LoginModel.swift */,
 				67FF50B31F7DEFA4007C010E /* NetWorkPlugin.swift */,
-				67FF50B41F7DEFA4007C010E /* PageControllerViewController.swift */,
 				67FF50B51F7DEFA4007C010E /* PagerControllerViewController.swift */,
-				67FF50B61F7DEFA4007C010E /* TableControllerViewController.swift */,
 				67FF50B71F7DEFA4007C010E /* TableViewCell.swift */,
-				67FF50B81F7DEFA4007C010E /* TableViewModel.swift */,
-				67FF50B91F7DEFA4007C010E /* TableViewPage.swift */,
 				67FF50BA1F7DEFA4007C010E /* ViewController.swift */,
 				67D103931F8DEA5E00196CDD /* RegionModel.swift */,
 			);
@@ -539,7 +466,6 @@
 				67B411612003602700147958 /* iPhoneSE.png in Resources */,
 				67B4115F2003602700147958 /* iPhone8.png in Resources */,
 				67B4114C20034A1000147958 /* iPhoneX.png in Resources */,
-				673A11101FC2B7020014AA92 /* TangramMock.json in Resources */,
 				67FF50391F7DDC18007C010E /* Main.storyboard in Resources */,
 				67B4115020034B6700147958 /* iPhoneX@3x.png in Resources */,
 			);
@@ -675,30 +601,22 @@
 				67FF50CC1F7DEFA4007C010E /* ViewController.swift in Sources */,
 				67FF50951F7DE71F007C010E /* EasyTabView.swift in Sources */,
 				67FF50C41F7DEFA4007C010E /* LoginModel.swift in Sources */,
-				67FC79871F7DFE53006ED628 /* BaseView.swift in Sources */,
 				67FF50A41F7DE71F007C010E /* UIViewExtension_RemoveConstraints.swift in Sources */,
-				67FF50CA1F7DEFA4007C010E /* TableViewModel.swift in Sources */,
-				67FF50C31F7DEFA4007C010E /* ListViewPage.swift in Sources */,
 				67FF50BB1F7DEFA4007C010E /* AndroidModle.swift in Sources */,
 				67B20C5F1F886A65002ADB9E /* RegionSelector.swift in Sources */,
 				67FF509E1F7DE71F007C010E /* RxCollectionViewInsertSectionDataSource.swift in Sources */,
 				67FF509D1F7DE71F007C010E /* RefreshViewAnimator.swift in Sources */,
-				67FF50BE1F7DEFA4007C010E /* FirstPageController.swift in Sources */,
 				67FF50C71F7DEFA4007C010E /* PagerControllerViewController.swift in Sources */,
 				67FF509F1F7DE71F007C010E /* SJProgressHUD.swift in Sources */,
-				673A110E1FC2B5140014AA92 /* MockViewController.m in Sources */,
 				67FF50A51F7DE71F007C010E /* ViewControllerExtension_Child.swift in Sources */,
 				67FF50A71F7DE71F007C010E /* ViewPagerHelper.swift in Sources */,
-				673A110C1FC2B5140014AA92 /* TangramSimpleTextElement.m in Sources */,
 				67FF50A61F7DE71F007C010E /* ViewExtension.swift in Sources */,
-				67FF508B1F7DE71F007C010E /* BasePageView.swift in Sources */,
-				67FF50C11F7DEFA4007C010E /* ListViewController.swift in Sources */,
+				67FF508B1F7DE71F007C010E /* BaseParentView.swift in Sources */,
 				67FF50A01F7DE71F007C010E /* State.swift in Sources */,
 				67FF50981F7DE71F007C010E /* NotificationUtils.swift in Sources */,
 				67B20C5D1F885F5F002ADB9E /* BlockMethods.swift in Sources */,
 				67FF50901F7DE71F007C010E /* DefaultViewAnimator.swift in Sources */,
 				67FF508F1F7DE71F007C010E /* DefaultRefreshView.swift in Sources */,
-				67FF50CB1F7DEFA4007C010E /* TableViewPage.swift in Sources */,
 				67FF508A1F7DE71F007C010E /* BaseMacro.swift in Sources */,
 				67FF50891F7DE71F007C010E /* AutoRefeshViewHelper.swift in Sources */,
 				67FF50C91F7DEFA4007C010E /* TableViewCell.swift in Sources */,
@@ -710,22 +628,14 @@
 				67FF50991F7DE71F007C010E /* NSArray_Remove.swift in Sources */,
 				67FF50C01F7DEFA4007C010E /* ListCell.swift in Sources */,
 				67C5B9901F7E4E2500EE41D1 /* MagicDialog.swift in Sources */,
-				67FF508D1F7DE71F007C010E /* BaseViewModel.swift in Sources */,
-				67FF50C81F7DEFA4007C010E /* TableControllerViewController.swift in Sources */,
 				67FF50921F7DE71F007C010E /* EasyPageViewController.swift in Sources */,
 				67D103941F8DEA5E00196CDD /* RegionModel.swift in Sources */,
-				67FF50C61F7DEFA4007C010E /* PageControllerViewController.swift in Sources */,
-				67FF50BF1F7DEFA4007C010E /* FirstPageViewModel.swift in Sources */,
 				67FF50911F7DE71F007C010E /* EasyCollectionView.swift in Sources */,
-				673A110D1FC2B5140014AA92 /* TangramSingleImageElement.m in Sources */,
 				67FF509C1F7DE71F007C010E /* RefreshHelper.swift in Sources */,
-				67FF50C21F7DEFA4007C010E /* ListViewModel.swift in Sources */,
-				67FF508C1F7DE71F007C010E /* BaseViewController.swift in Sources */,
 				67FF50A21F7DE71F007C010E /* UIScrollView+PullToRefresh.swift in Sources */,
 				67FF509B1F7DE71F007C010E /* PullToRefresh.swift in Sources */,
 				67FF508E1F7DE71F007C010E /* CommonUtils.swift in Sources */,
 				67FF509A1F7DE71F007C010E /* NSLayoutConstraintExtension_Remove.swift in Sources */,
-				67FF50BD1F7DEFA4007C010E /* FirstPage.swift in Sources */,
 				67FF503C1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld in Sources */,
 				67FF50BC1F7DEFA4007C010E /* AppDelegate.swift in Sources */,
 				67FF50C51F7DEFA4007C010E /* NetWorkPlugin.swift in Sources */,

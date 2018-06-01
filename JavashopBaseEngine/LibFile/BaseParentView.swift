@@ -1,5 +1,5 @@
 //
-//  BaseView.swift
+//  BaseParentView.swift
 //  Ios组件化Demo
 //
 //  Created by LDD on 2017/9/7.
@@ -7,7 +7,7 @@
 //
 
 import UIKit
-open class BasePageView :UIView{
+open class BaseParentView:UIView{
 
     override public init(frame: CGRect) {
         super.init(frame: frame)
