@@ -39,8 +39,6 @@
 		67FF50911F7DE71F007C010E /* EasyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50701F7DE71F007C010E /* EasyCollectionView.swift */; };
 		67FF50921F7DE71F007C010E /* EasyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50711F7DE71F007C010E /* EasyPageViewController.swift */; };
 		67FF50931F7DE71F007C010E /* EasyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50721F7DE71F007C010E /* EasyTableView.swift */; };
-		67FF50941F7DE71F007C010E /* EasyTabPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50731F7DE71F007C010E /* EasyTabPageViewController.swift */; };
-		67FF50951F7DE71F007C010E /* EasyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50741F7DE71F007C010E /* EasyTabView.swift */; };
 		67FF50961F7DE71F007C010E /* MagicHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50751F7DE71F007C010E /* MagicHeaderLayout.swift */; };
 		67FF50971F7DE71F007C010E /* NetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50761F7DE71F007C010E /* NetExtension.swift */; };
 		67FF50981F7DE71F007C010E /* NotificationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FF50771F7DE71F007C010E /* NotificationUtils.swift */; };
@@ -130,8 +128,6 @@
 		67FF50701F7DE71F007C010E /* EasyCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyCollectionView.swift; sourceTree = "<group>"; };
 		67FF50711F7DE71F007C010E /* EasyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyPageViewController.swift; sourceTree = "<group>"; };
 		67FF50721F7DE71F007C010E /* EasyTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyTableView.swift; sourceTree = "<group>"; };
-		67FF50731F7DE71F007C010E /* EasyTabPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyTabPageViewController.swift; sourceTree = "<group>"; };
-		67FF50741F7DE71F007C010E /* EasyTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyTabView.swift; sourceTree = "<group>"; };
 		67FF50751F7DE71F007C010E /* MagicHeaderLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicHeaderLayout.swift; sourceTree = "<group>"; };
 		67FF50761F7DE71F007C010E /* NetExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetExtension.swift; sourceTree = "<group>"; };
 		67FF50771F7DE71F007C010E /* NotificationUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationUtils.swift; sourceTree = "<group>"; };
@@ -298,8 +294,6 @@
 				67FF50701F7DE71F007C010E /* EasyCollectionView.swift */,
 				67FF50711F7DE71F007C010E /* EasyPageViewController.swift */,
 				67FF50721F7DE71F007C010E /* EasyTableView.swift */,
-				67FF50731F7DE71F007C010E /* EasyTabPageViewController.swift */,
-				67FF50741F7DE71F007C010E /* EasyTabView.swift */,
 				67FF50751F7DE71F007C010E /* MagicHeaderLayout.swift */,
 				67FF50761F7DE71F007C010E /* NetExtension.swift */,
 				67FF50771F7DE71F007C010E /* NotificationUtils.swift */,
@@ -532,13 +526,12 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/EZSwiftExtensions/EZSwiftExtensions.framework",
-				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageViewer/ImageViewer.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LazyScroll/LazyScroll.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
-				"${BUILT_PRODUCTS_DIR}/NoticeBar/NoticeBar.framework",
 				"${BUILT_PRODUCTS_DIR}/PermissionScope/PermissionScope.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -549,12 +542,20 @@
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/TMUtils/TMUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Tangram/Tangram.framework",
 				"${BUILT_PRODUCTS_DIR}/TangramKit/TangramKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/VirtualView/VirtualView.framework",
+				"${BUILT_PRODUCTS_DIR}/WHC_Layout/WHC_Layout.framework",
+				"${BUILT_PRODUCTS_DIR}/WHC_PageViewKit/WHC_PageViewKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -562,13 +563,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZSwiftExtensions.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageViewer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LazyScroll.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NoticeBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PermissionScope.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
@@ -579,12 +579,20 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TMUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tangram.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TangramKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VirtualView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WHC_Layout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WHC_PageViewKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -599,7 +607,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				67FF50CC1F7DEFA4007C010E /* ViewController.swift in Sources */,
-				67FF50951F7DE71F007C010E /* EasyTabView.swift in Sources */,
 				67FF50C41F7DEFA4007C010E /* LoginModel.swift in Sources */,
 				67FF50A41F7DE71F007C010E /* UIViewExtension_RemoveConstraints.swift in Sources */,
 				67FF50BB1F7DEFA4007C010E /* AndroidModle.swift in Sources */,
@@ -639,7 +646,6 @@
 				67FF503C1F7DDC18007C010E /* JavashopBaseEngine.xcdatamodeld in Sources */,
 				67FF50BC1F7DEFA4007C010E /* AppDelegate.swift in Sources */,
 				67FF50C51F7DEFA4007C010E /* NetWorkPlugin.swift in Sources */,
-				67FF50941F7DE71F007C010E /* EasyTabPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -814,7 +820,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = JavashopBaseEngine/OpenBridge.h;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -832,7 +838,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.enation.ios.JavashopBaseEngine.JavashopBaseEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = JavashopBaseEngine/OpenBridge.h;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

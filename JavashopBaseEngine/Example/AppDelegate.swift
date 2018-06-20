@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // console.format = "$DHH:mm:ss$d $L $M"
         // 或者使用 console.format = "$J" 输出JSON格式
         KingfisherManager.shared.cache.maxMemoryCost = 1024*1024*8
-        CommonUtils.autoClearImageCache(dis: disposeBag)
+        CommonUtils.autoClearImageCache(dis: rx.disposeBag)
         //添加配置到SwiftyBeaver
         Log.addDestination(console)
         // Override point for customization after application launch.

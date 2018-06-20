@@ -222,9 +222,9 @@ public class RegionSelector<T :RegionIInter>: UIView,RegionSelectorIInter {
     
     /// 更新标题（已选地区信息）
     private func updataTitle(){
-        let attributes = [NSFontAttributeName: titleLable.font]
+        let attributes = [NSAttributedStringKey.font: titleLable.font]
         let option = NSStringDrawingOptions.usesLineFragmentOrigin
-        let rect:CGRect = result.toString().boundingRect(with: CGSize.init(width: CGFloat(MAXFLOAT), height: GET_SCREEN_WIDTH(60)), options: option, attributes: (attributes as Any as! [String : Any]), context: nil)
+        let rect:CGRect = result.toString().boundingRect(with: CGSize.init(width: CGFloat(MAXFLOAT), height: GET_SCREEN_WIDTH(60)), options: option, attributes:attributes as Any as? [NSAttributedStringKey : Any], context: nil)
         titleLable.frame.size.width = rect.size.width
         titleScrollView.contentSize.width = rect.size.width
         titleLable.setText(text: result.toString())

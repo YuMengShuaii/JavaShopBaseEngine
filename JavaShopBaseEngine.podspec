@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JavaShopBaseEngine"
-  s.version      = "0.1.5"
+  s.version      = "0.1.6"
   s.summary      = "JavaShop Basic dynamic dependency Library."
 
   # This description is used to generate tags and improve search results.
@@ -131,30 +131,33 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-    s.dependency "Action", "~> 3.2.0"
-    s.dependency "Alamofire","~>4.5.1"
-    s.dependency "Moya","~>9.0.0"
-    s.dependency "Moya/RxSwift","~>9.0.0"
-    s.dependency "Then","~>2.2.0"
-    s.dependency "SwiftDate","~>4.3.0"
-    s.dependency "SnapKit","~>3.2.0"
-    s.dependency "Kingfisher","~>3.13.1"
+
+    s.dependency "Action", "~> 3.6.0"
+    s.dependency "Alamofire","~>4.7.2"
+    s.dependency "Moya","~>11.0.2"
+    s.dependency "Moya/RxSwift","~>11.0.2"
+    s.dependency "Then","~>2.3.0"
+    s.dependency "SwiftDate","~>4.5.1"
+    s.dependency "SnapKit","~>4.0.0"
+    s.dependency "Kingfisher","~>4.8.0"
     s.dependency "PermissionScope","~>1.1.1"
-    s.dependency "RxSwift","~>3.6.1"
-    s.dependency "RxCocoa","~>3.6.1"
-    s.dependency "RxDataSources","~>2.0.2"
-    s.dependency "ImageViewer","~>4.1.0"
-    s.dependency "HandyJSON","~>1.8.0"
-    s.dependency "NoticeBar","~>0.1.5"
-    s.dependency "RealmSwift","~>2.10.1"
+    s.dependency "RxSwift","~>4.2.0"
+    s.dependency "RxCocoa","~>4.2.0"
+    s.dependency "RxDataSources","~>3.0.2"
+    s.dependency "ImageViewer","~>5.0.0"
+    s.dependency "HandyJSON","~>4.1.1"
+    s.dependency "TZImagePickerController","~>2.1.6"
+    s.dependency "RealmSwift","~>3.7.4"
     s.dependency "EZSwiftExtensions","~>1.11.0"
-    s.dependency "Reusable","~>4.0.0"
-    s.dependency "RxOptional","~>3.2.0"
-    s.dependency "SideMenu","~>3.0.1"
-    s.dependency "SwiftyBeaver","~>1.4.1"
-    s.dependency "NSObject+Rx","~>3.0.0"
+    s.dependency "Reusable","~>4.0.2"
+    s.dependency "RxOptional","~>3.5.0"
+    s.dependency "SideMenu","~>4.0.0"
     s.dependency "TangramKit","1.1.6"
-    s.dependency "RAMAnimatedTabBarController","~>2.2.3"
-    s.dependency "HMSegmentedControl","~>1.5.2"
+    s.dependency "SwiftyBeaver","~>1.6.0"
+    s.dependency "NSObject+Rx","~>4.3.0"
+    s.dependency "RAMAnimatedTabBarController","~>3.2.0"
+    s.dependency 'WHC_PageViewKit', '~> 1.0.9'
+    s.dependency 'Toast-Swift', '~> 3.0.1'
+    s.dependency 'Tangram' , '~> 2.1.4'
 
 end

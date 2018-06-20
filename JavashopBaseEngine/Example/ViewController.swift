@@ -17,7 +17,7 @@ import RealmSwift
 import NSObject_Rx
 
 class ViewController: UIViewController,UITextViewDelegate {
-    private let provider = RxMoyaProvider<ApiManager>()
+    private let provider = MoyaProvider<ApiManager>()
     private let dispose = DisposeBag()
     let  count = Variable("")
     var remainingSeconds = Variable(113)
@@ -123,7 +123,7 @@ class ViewController: UIViewController,UITextViewDelegate {
         timer = Timer.scheduledTimer(timeInterval: TimeInterval(1), target: self, selector: #selector(tickDown), userInfo: nil, repeats: true)
     }
     
-    func tickDown() {
+    @objc func tickDown() {
         //将剩余时间减少1秒
         remainingSeconds.value -= 1
         //如果剩余时间小于等于0
@@ -142,11 +142,11 @@ class ViewController: UIViewController,UITextViewDelegate {
     
     @objc func click() {
         //取消定时器
-        timer.invalidate()
-        let vc = PagerControllerViewController();
-        UIApplication.shared.keyWindow?.rootViewController =
-            UINavigationController.init(rootViewController: vc)
-        self.navigationController?.popViewController(animated: false)
+//        timer.invalidate()
+//        let vc = PagerControllerViewController();
+//        UIApplication.shared.keyWindow?.rootViewController =
+//            UINavigationController.init(rootViewController: vc)
+//        self.navigationController?.popViewController(animated: false)
 //        provider.request(.isLogin())
 //            .filterSuccessfulStatusCodes()
 //            .mapString()
@@ -156,7 +156,7 @@ class ViewController: UIViewController,UITextViewDelegate {
 //               self.log.error(e.localizedDescription)
 //        }.addDisposableTo(dispose)
 //        navigationController?.pushViewController(PagerControllerViewController(), animated: true)
-//      let regionApi = RxMoyaProvider<RegionApi>()
+        let regionApi = MoyaProvider<RegionApi>()
 //        regionApi.request(.get(parentId: 0))
 //            .subscribeOn(ConcurrentDispatchQueueScheduler(qos :.userInteractive))
 //            .observeOn(ConcurrentDispatchQueueScheduler.init(qos: .userInteractive))
@@ -166,21 +166,21 @@ class ViewController: UIViewController,UITextViewDelegate {
 //            }) { (error) in
 //                Log.error(error)
 //        }.addDisposableTo(disposeBag)
-//        RegionSelector<RegionListBean>.build()
-//            .setDataEngine {[weak self] (data, dataSource) in
-//                regionApi.request(.get(parentId:  data == nil ? 0 :(data?.getId())!))
-//                    .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .userInteractive))
-//                    .observeOn(MainScheduler.instance)
-//                    .filterSuccessfulStatusCodes()
-//                    .mapInstance(RegionData.self)
-//                    .subscribe(onSuccess: { (datas) in
-//                        dataSource(datas.data!)
-//                    }, onError: { (error) in
-//                        Log.error(error)
-//                    }).addDisposableTo((self?.disposeBag)!)
-//            }.setResultListener { (result) in
-//                Log.info(result.toString())
-//            }.show(vc: self)
+        RegionSelector<RegionListBean>.build()
+            .setDataEngine {[weak self] (data, dataSource) in
+                regionApi.rx.request(.get(parentId:  data == nil ? 0 :(data?.getId())!))
+                    .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .userInteractive))
+                    .observeOn(MainScheduler.instance)
+                    .filterSuccessfulStatusCodes()
+                    .mapInstance(RegionData.self)
+                    .subscribe(onSuccess: { (datas) in
+                        dataSource(datas.data!)
+                    }, onError: { (error) in
+                        Log.error(error)
+                    }).disposed(by: (self?.rx.disposeBag)!)
+            }.setResultListener { (result) in
+                Log.info(result.toString())
+            }.show(vc: self)
 //        MagicDialog.build()
 //                   .setPassListener {
 //                    Log.info("取消")

@@ -14,10 +14,9 @@ import AudioToolbox
 
 /// 简化操作的UICollectionView
 public class EasyCollectionView<DataType>: UICollectionView {
-    
-    
+
     /// 数据源
-    private let datasource = RxCollectionViewInsertSectionDataSource<SectionModel<String,DataType>>()
+    private var datasource : RxCollectionViewInsertSectionDataSource<SectionModel<String,DataType>>!
     
     /// 数据集合
     private let dataArr = Variable([SectionModel<String, DataType>]())
@@ -41,8 +40,9 @@ public class EasyCollectionView<DataType>: UICollectionView {
             rx.modelSelected(DataType.self)
             .bind(onNext: {[weak self] (data) in
                 self?.click(data)
-            }).addDisposableTo(disposeBag)
+            }).disposed(by: rx.disposeBag)
         }
+    
     
     
     /// 设置Item点击事件
@@ -95,20 +95,20 @@ public class EasyCollectionView<DataType>: UICollectionView {
             if data.at.section == (self?.dataArr.value.count)! - 1 && data.at.row == ((self?.numberOfItems(inSection: data.at.section))!/3) {
                 loadMore()
             }
-        }.addDisposableTo(disposeBag)
+            }.disposed(by: rx.disposeBag)
     }
     
     /// 创建Cell布局
     ///
     /// - Parameter cellBlack: 布局创建代码块
     public func createCell(cellBlack: @escaping JavaShopMethod4<CollectionViewSectionedDataSource<SectionModel<String,DataType>>, UICollectionView, IndexPath, DataType,UICollectionViewCell>){
-        datasource.configureCell = cellBlack
+        datasource = RxCollectionViewInsertSectionDataSource<SectionModel<String,DataType>>(configureCell: cellBlack)
             dataArr.asObservable()
                 .filter({ (data) -> Bool in
                     return data.count > 0
                 })
                 .bind(to: (rx.items(dataSource: datasource)))
-                .addDisposableTo(disposeBag)
+                .disposed(by: rx.disposeBag)
     }
     
     /// 添加数据

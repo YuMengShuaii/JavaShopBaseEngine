@@ -1,111 +1,135 @@
 PODS:
-  - Action (3.2.0):
-    - RxCocoa (~> 3.4)
-    - RxSwift (~> 3.4)
-  - Alamofire (4.5.1)
-  - Differentiator (2.0.2)
+  - Action (3.6.0):
+    - RxCocoa (~> 4.2.0)
+    - RxSwift (~> 4.2.0)
+  - Alamofire (4.7.2)
+  - Differentiator (3.0.2)
   - EZSwiftExtensions (1.11)
-  - HandyJSON (1.8.0)
-  - HMSegmentedControl (1.5.4)
-  - ImageViewer (4.1.0)
-  - Kingfisher (3.13.1)
-  - Moya (9.0.0):
-    - Moya/Core (= 9.0.0)
-  - Moya/Core (9.0.0):
+  - HandyJSON (4.1.1)
+  - ImageViewer (5.0.0)
+  - Kingfisher (4.8.0)
+  - LazyScroll (1.0.1):
+    - TMUtils (~> 1.0.1)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
-  - Moya/RxSwift (9.0.0):
+  - Moya/RxSwift (11.0.2):
     - Moya/Core
-    - RxSwift (~> 3.3)
-  - NoticeBar (0.1.7)
-  - NSObject+Rx (3.0.0):
-    - RxSwift (~> 3.0)
+    - RxSwift (~> 4.0)
+  - NSObject+Rx (4.3.0):
+    - RxSwift (~> 4.0)
   - PermissionScope (1.1.1)
-  - RAMAnimatedTabBarController (2.2.3)
-  - Realm (2.10.2):
-    - Realm/Headers (= 2.10.2)
-  - Realm/Headers (2.10.2)
-  - RealmSwift (2.10.2):
-    - Realm (= 2.10.2)
+  - RAMAnimatedTabBarController (3.2.0)
+  - Realm (3.7.4):
+    - Realm/Headers (= 3.7.4)
+  - Realm/Headers (3.7.4)
+  - RealmSwift (3.7.4):
+    - Realm (= 3.7.4)
   - Result (3.2.4)
-  - Reusable (4.0.0):
-    - Reusable/Storyboard (= 4.0.0)
-    - Reusable/View (= 4.0.0)
-  - Reusable/Storyboard (4.0.0)
-  - Reusable/View (4.0.0)
-  - RxCocoa (3.6.1):
-    - RxSwift (~> 3.6)
-  - RxDataSources (2.0.2):
-    - Differentiator (~> 2.0)
-    - RxCocoa (>= 3.6.1)
-    - RxSwift (>= 3.6.1)
-  - RxOptional (3.2.0):
-    - RxCocoa
-    - RxSwift
-  - RxSwift (3.6.1)
-  - SideMenu (3.0.2)
-  - SnapKit (3.2.0)
-  - SwiftDate (4.3.0)
-  - SwiftyBeaver (1.4.2)
+  - Reusable (4.0.2):
+    - Reusable/Storyboard (= 4.0.2)
+    - Reusable/View (= 4.0.2)
+  - Reusable/Storyboard (4.0.2)
+  - Reusable/View (4.0.2)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxOptional (3.5.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - SDWebImage (4.4.0):
+    - SDWebImage/Core (= 4.4.0)
+  - SDWebImage/Core (4.4.0)
+  - SideMenu (4.0.0)
+  - SnapKit (4.0.0)
+  - SwiftDate (4.5.1)
+  - SwiftyBeaver (1.6.0)
+  - Tangram (2.1.4):
+    - LazyScroll (= 1.0.1)
+    - SDWebImage (~> 4.2)
+    - VirtualView (= 1.2.7)
   - TangramKit (1.1.6)
-  - Then (2.2.0)
+  - Then (2.3.0)
+  - TMUtils (1.0.1)
+  - Toast-Swift (3.0.1)
+  - TZImagePickerController (2.1.6)
+  - VirtualView (1.2.7):
+    - SDWebImage (~> 4.2)
+  - WHC_Layout (1.1.5.6)
+  - WHC_PageViewKit (1.0.9):
+    - WHC_Layout
 
 DEPENDENCIES:
-  - Action (~> 3.2.0)
-  - Alamofire (~> 4.5.1)
+  - Action (~> 3.6.0)
+  - Alamofire (~> 4.7.2)
   - EZSwiftExtensions (~> 1.11.0)
-  - HandyJSON (~> 1.8.0)
-  - HMSegmentedControl (~> 1.5.2)
-  - ImageViewer (~> 4.1.0)
-  - Kingfisher (~> 3.13.1)
-  - Moya (~> 9.0.0)
-  - Moya/RxSwift (~> 9.0.0)
-  - NoticeBar (~> 0.1.5)
-  - NSObject+Rx (~> 3.0.0)
+  - HandyJSON (~> 4.1.1)
+  - ImageViewer (~> 5.0.0)
+  - Kingfisher (~> 4.8.0)
+  - Moya (~> 11.0.2)
+  - Moya/RxSwift (~> 11.0.2)
+  - NSObject+Rx (~> 4.3.0)
   - PermissionScope (~> 1.1.1)
-  - RAMAnimatedTabBarController (~> 2.2.3)
-  - RealmSwift (~> 2.10.1)
-  - Reusable (~> 4.0.0)
-  - RxCocoa (~> 3.6.1)
-  - RxDataSources (~> 2.0.2)
-  - RxOptional (~> 3.2.0)
-  - RxSwift (~> 3.6.1)
-  - SideMenu (~> 3.0.1)
-  - SnapKit (~> 3.2.0)
-  - SwiftDate (~> 4.3.0)
-  - SwiftyBeaver (~> 1.4.1)
+  - RAMAnimatedTabBarController (~> 3.2.0)
+  - RealmSwift (~> 3.7.4)
+  - Reusable (~> 4.0.2)
+  - RxCocoa (~> 4.2.0)
+  - RxDataSources (~> 3.0.2)
+  - RxOptional (~> 3.5.0)
+  - RxSwift (~> 4.2.0)
+  - SideMenu (~> 4.0.0)
+  - SnapKit (~> 4.0.0)
+  - SwiftDate (~> 4.5.1)
+  - SwiftyBeaver (~> 1.6.0)
+  - Tangram (~> 2.1.4)
   - TangramKit (= 1.1.6)
-  - Then (~> 2.2.0)
+  - Then (~> 2.3.0)
+  - Toast-Swift (~> 3.0.1)
+  - TZImagePickerController (~> 2.1.6)
+  - WHC_PageViewKit (~> 1.0.9)
 
 SPEC CHECKSUMS:
-  Action: 991c9e175e04675028724868768aa08f22c85476
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  Differentiator: caa9b3957981a2ac8e6b2eac8a676af461caa604
+  Action: 3d9486d3da02b572b0a034b6c49ac4c3fbcc8b63
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
   EZSwiftExtensions: 84000042202d9fd574f626cda3064143f27fa767
-  HandyJSON: edaaa3278bf4c4c96d6f7382b80d6b91c88d3bf5
-  HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
-  ImageViewer: 163e5832e0a09e31a3e3482cce6e5e9029356174
-  Kingfisher: ed9707a409cc47fddafbcd12a43a9757e3600af5
-  Moya: cf5e6ee93af526532f92614004b8ad2ea60fd845
-  NoticeBar: 7b824879ef70398a6ba2e01338e2d8bedb2c9d4e
-  NSObject+Rx: 9c60a6e602ca647c0b2b34403383c305b1c6edc5
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  ImageViewer: 3def6e39c6979ce3e9d001c78eec0d8b895f2f73
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  LazyScroll: 23f4550711452ad4306a30fc75106a7a5556a882
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  NSObject+Rx: 9a5eeff5e08156f849fa973514456f28eef08742
   PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
-  RAMAnimatedTabBarController: 71adaa59ea22a8badfa242b8e068f0b9ebbb447d
-  Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
-  RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
+  RAMAnimatedTabBarController: 0499157f67053a21bcccb52a25dd3c6ecdbfb4f6
+  Realm: a469bb59e33f9926102ccaea4349822c53b9117e
+  RealmSwift: a45861b21c180f5cf0f122144b9759fa8dde3e9e
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
-  Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
-  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
-  RxDataSources: 7f190474a93a206c082c2d74c4cc9c8f7bea4feb
-  RxOptional: d2d6a68064bc16b4801332c40663967f481b0234
-  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
-  SideMenu: 8fe957e0f5dcf1a1175c8ba5d47978d4eb2a89da
-  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
-  SwiftDate: 64e2312711c5c506f7b51794308ce91f19eb494a
-  SwiftyBeaver: 91057725648ee4980308f1650af077d04b3654a0
+  Reusable: 584a5629747c52e0f6a77841b400dc2643f6fa0f
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxOptional: bd32ff8ca9df4177683d56ffeb618a9d4d5d5cad
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
+  SideMenu: 70ee5657df63ec3382660ec4ef470bf1cf5db07d
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
+  SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
+  Tangram: f15845b96a2a56288220820273a6264052984757
   TangramKit: 0119cdca13cda5fc0bc9e36b47b3292dba9423cf
-  Then: 823f9813e1d4d0a814a5ba15e9c9d33ec7aca631
+  Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
+  TMUtils: 8af8e4695b6e4086d0545ecd7cd025556515ab42
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  TZImagePickerController: bc25e933c9d970a622d052f0d4de16202bbcd863
+  VirtualView: e8f8010083797020eea5c287a51e002b93d1a863
+  WHC_Layout: ad504fc25be0483e91c50e87f066badbb387b0de
+  WHC_PageViewKit: bd2e01289b3fdc7ee867f899713a6082f70ceeac
 
-PODFILE CHECKSUM: acffe6bdc3fa28d9deaad91887a76e1147277c1e
+PODFILE CHECKSUM: 4263ffb1597b332fea4a6765a33b579de2a39d5e
 
 COCOAPODS: 1.4.0.beta.2

@@ -18,7 +18,7 @@ public class EasyTableView<DataType>: UITableView {
     private let dataArr = Variable([SectionModel<String, DataType>]())
     
     /// RxDataSource
-    private let datasource = RxTableViewSectionedReloadDataSource<SectionModel<String, DataType>>()
+    private var datasource : RxTableViewSectionedReloadDataSource<SectionModel<String, DataType>>!
     
     ///点击代码块
     public var click :JavaShopVoidMethod1<DataType>!
@@ -37,19 +37,19 @@ public class EasyTableView<DataType>: UITableView {
             if(self?.click != nil){
               self?.click(data)
             }
-        }.addDisposableTo(disposeBag)
+            }.disposed(by: rx.disposeBag)
     }
     
     /// 创建Cell布局
     ///
     /// - Parameter cellBlack: 布局创建代码块
     public func createCell(cellBlack: JavaShopMethod4<TableViewSectionedDataSource<SectionModel<String, DataType>>, UITableView, IndexPath, DataType,UITableViewCell>!){
-        datasource.configureCell = cellBlack
+        datasource = RxTableViewSectionedReloadDataSource<SectionModel<String, DataType>>.init(configureCell: cellBlack)
         dataArr.asDriver()
             .filter({ (data) -> Bool in
                 return data.count > 0
             }).drive(rx.items(dataSource: datasource))
-            .addDisposableTo(disposeBag)
+            .disposed(by: rx.disposeBag)
     }
     
     /// 设置点击事件
@@ -101,7 +101,7 @@ public class EasyTableView<DataType>: UITableView {
             if dispaly.indexPath.section == (self?.dataArr.value.count)! - 1 && dispaly.indexPath.row == ((self?.numberOfRows(inSection: dispaly.indexPath.section))!/3) {
                 loadMore()
             }
-        }.addDisposableTo(disposeBag)
+            }.disposed(by: rx.disposeBag)
     }
     
     /// 添加数据

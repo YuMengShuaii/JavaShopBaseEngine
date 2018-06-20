@@ -113,7 +113,7 @@ enum RegionApi{
 
 extension RegionApi :TargetType{
     var baseURL: URL{
-        return URL(string: "http://www.javamall.com.cn/b2b2c/api/")!
+        return URL(string: "http://v65.javamall.com.cn/api/")!
     }
     
     var headers: [String : String]?{
@@ -126,16 +126,13 @@ extension RegionApi :TargetType{
     
     var path: String{
         switch self {
-        case .get:
-            return "mobile/address/region-list.do"
+        case .get(let parentId):
+            return "mobile/address/region-list/\(parentId).do"
         }
     }
     
     public var parameters: [String: Any]? {
-        switch self {
-        case .get(let parentId):
-            return ["parentid": parentId]
-        }
+        return nil
     }
     
     public var parameterEncoding: ParameterEncoding {
@@ -149,7 +146,7 @@ extension RegionApi :TargetType{
     var task: Task{
         switch self {
         case .get:
-            return .requestParameters(parameters: parameters!, encoding: parameterEncoding)
+            return .requestPlain
         }
     }
     
